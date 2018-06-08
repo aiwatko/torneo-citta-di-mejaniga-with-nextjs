@@ -1,0 +1,19 @@
+{
+  "name": "torneo-citta-di-mejaniga",
+  "version": "1.0.0",
+  "description": "Torneo Citta di Mejaniga website done with NextJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": "www.torneocittadimejaniga.it",
+  "author": "Oktawia Kata",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}

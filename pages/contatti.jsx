@@ -85,9 +85,9 @@ class Contacts extends Component {
                                             : item.link}
                                     >
                                         <Image 
-                                            src={item.type === 'email' ? '/static/email.png'
-                                                : item.type === 'whatsapp' ? '/static/whatsapp.png' 
-                                                : '/static/facebook.png'}
+                                            src={item.type === 'email' ? '/static/contacts/email.png'
+                                                : item.type === 'whatsapp' ? '/static/contacts/whatsapp.png' 
+                                                : '/static/contacts/facebook.png'}
                                             alt="Contact type icon"
                                         />
                                         <Text>{item.text}</Text>

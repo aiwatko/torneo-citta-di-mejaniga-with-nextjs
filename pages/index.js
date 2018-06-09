@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components';
 
-import Layout from '../components/Layout/Layout'
+import Layout from '../components/Layout'
 import getHomeContent from '../api/content/home'
 
 
@@ -51,7 +51,7 @@ class Home extends Component {
                         <Title>{this.state.homeContent.title}</Title>    
                         <Text>{this.state.homeContent.sub_title1}</Text>    
                         <Text>{this.state.homeContent.sub_title2}</Text>    
-                        <Logo src="static/logo.png" alt="Tournament's logo"/>                    
+                        <Logo src="static/home/logo.png" alt="Tournament's logo"/>                    
                     </Container>
                 }
             </Layout>

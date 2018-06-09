@@ -49,7 +49,7 @@ class Header extends Component {
                                         this.state.navItems && Object.values(this.state.navItems).map(item => {
                                             return(
                                             <li className="header__nav-item" key={item.label}>
-                                                <Link className="header__nav-item-link" href={`/${item.link}`}>{item.label}</Link>
+                                                <Link href={`/${item.link}`}><a className="header__nav-item-link">{item.label}</a></Link>
                                             </li>
                                             );
                                         })

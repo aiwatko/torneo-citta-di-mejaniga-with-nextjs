@@ -4,8 +4,8 @@ import shortid from 'shortid'
 import styled from 'styled-components'
 
 import Layout from '../components/Layout'
-import InputField from '../components/InputField/InputField'
-import InputFieldWithLabel from '../components/InputFieldWithLabel/InputFieldWithLabel'
+import InputField from '../components/InputField'
+import InputFieldWithLabel from '../components/InputFieldWithLabel'
 
 import { db, firebaseAuth } from '../api/setup'
 import getContent from '../api/content/enrollment'

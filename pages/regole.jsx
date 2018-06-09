@@ -101,7 +101,7 @@ class Rules extends Component {
                             })
                         } 
                         </RulesList>
-                        <Image src='static/rules/rules.png' alt="Rules' mascot"/>
+                        <Image src='/static/rules/rules.png' alt="Rules' mascot"/>
                     </Container>
                 }
             </Layout>    

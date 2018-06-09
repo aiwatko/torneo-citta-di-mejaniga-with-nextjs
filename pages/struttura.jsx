@@ -110,9 +110,9 @@ class Structure extends Component {
                                                 <ItemSubtitle>{item.sub_title}</ItemSubtitle>
                                             </TextContainer> 
                                             <Image
-                                                src={item.label === 'phase1' ? 'static/structure/phase1.png'
-                                                : item.label === 'phase2' ? 'static/structure/phase2.png' 
-                                                : 'static/structure/phase3.png'} 
+                                                src={item.label === 'phase1' ? '/static/structure/phase1.png'
+                                                : item.label === 'phase2' ? '/static/structure/phase2.png' 
+                                                : '/static/structure/phase3.png'} 
                                                 alt="Fase del torneo" />
                                         </DatesListItem>
                                     );

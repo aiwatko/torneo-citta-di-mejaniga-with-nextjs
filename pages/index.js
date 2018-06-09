@@ -13,18 +13,21 @@ const Container = styled.div`
     justify-content: center;  
     max-width: 1024px;
     margin: 0 auto;
+    padding: 8px;
 `;
 
 const Title = styled.h1`
     margin-top: 0;
+    text-align: center;
 `;
 
 const Text = styled.p`
     margin: 8px 0;
+    text-align: center;
 `;
 
 const Logo = styled.img`
-     height: auto;
+    height: auto;
     width: 250px;
 `;
 

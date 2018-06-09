@@ -9,7 +9,7 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     max-width: 1024px; 
-    padding: 0 8px;
+    padding: 8px;
     margin: 0 auto;  
 
     @media (min-width: 768px) {
@@ -68,6 +68,7 @@ const Image = styled.img`
 
 const RulesList = styled.ul`
     max-width: 768px;
+    padding-left: 24px;
     margin: 0;
     font-family: sans-serif;
     font-size: 16px;

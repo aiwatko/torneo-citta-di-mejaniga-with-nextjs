@@ -22,6 +22,7 @@ const Subtitle = styled.h2`
 const RulesList = styled.ul`
     max-width: 768px;
     margin: 0;
+    padding-left: 24px;
     font-family: sans-serif;
     font-size: 16px;
 `;

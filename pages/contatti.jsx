@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components';
 
-import Layout from '../components/Layout/Layout'
+import Layout from '../components/Layout'
 import getContactsContent from '../api/content/contacts'
 
 const Container = styled.div`

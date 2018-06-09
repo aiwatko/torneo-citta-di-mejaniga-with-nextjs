@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Layout from '../components/Layout/Layout'
 import styled from 'styled-components';
 
+import Layout from '../components/Layout/Layout'
 import getContactsContent from '../api/content/contacts'
 
 const Container = styled.div`
@@ -84,13 +84,13 @@ class Contacts extends Component {
                                             : item.type === 'whatsapp' ? `tel:${item.link}` 
                                             : item.link}
                                     >
-                                        <Image className="contacts__item-img" 
+                                        <Image 
                                             src={item.type === 'email' ? '/static/email.png'
                                                 : item.type === 'whatsapp' ? '/static/whatsapp.png' 
                                                 : '/static/facebook.png'}
                                             alt="Contact type icon"
                                         />
-                                        <Text className="contacts__item-text">{item.text}</Text>
+                                        <Text>{item.text}</Text>
                                     </Link>
                                 </ListItem>
                                 );

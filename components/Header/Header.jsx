@@ -17,6 +17,7 @@ class Header extends Component {
             });
         }, console.error);
     }
+
     
     
     openNav = () => {
@@ -27,7 +28,12 @@ class Header extends Component {
     closeNav = () => {
         const nav = document.getElementsByClassName('header__nav-container')[0];
         nav.style.display = 'none';
-    }
+		}
+		
+		showSubnNav = e => {
+			const subitems = e.target.nextSibling
+			subitems.classList.toggle('active')
+		}
 
     render() {
         return (
@@ -49,7 +55,26 @@ class Header extends Component {
                                         this.state.navItems && Object.values(this.state.navItems).map(item => {
                                             return(
                                             <li className="header__nav-item" key={item.label}>
-                                                <Link href={`/${item.link}`}><a className="header__nav-item-link">{item.label}</a></Link>
+                                                {
+                                                    item.subitems
+                                                        ?   <div>
+                                                                <Link><a className="header__nav-item-link" onClick={this.showSubnNav}>{item.label}</a></Link>
+                                                                <ul className="header__nav-sublist">
+                                                                    {
+																																			item.subitems.map(subitem => {
+																																				if(subitem.active) {
+																																					return(
+																																						<li className="header__nav-subitem" key={item.label}>
+																																							<Link href={`/${subitem.link}`}><a className="header__nav-item-link">{subitem.nav_label}</a></Link>
+																																						</li>
+																																					)
+																																				}
+																																			})
+                                                                    }
+                                                                </ul>
+                                                            </div>
+                                                        : <Link href={`/${item.link}`}><a className="header__nav-item-link">{item.label}</a></Link>
+                                                }
                                             </li>
                                             );
                                         })

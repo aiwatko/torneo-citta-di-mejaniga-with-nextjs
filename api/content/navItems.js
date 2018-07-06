@@ -4,7 +4,14 @@ export default db.collection('pages').where('active', '==', true).orderBy('order
     .then(querySnapshot => {
         const navItems = [];
         querySnapshot.forEach(doc => {
-            navItems.push({label: doc.data().nav_label, link: doc.data().link})
+            const label = doc.data().nav_label
+            const link = doc.data().link
+            const subitems = link === undefined ? doc.data().subitems : null;
+            navItems.push({
+                label: label, 
+                link: link,
+                subitems: subitems
+            })
         })
         return navItems;
     })

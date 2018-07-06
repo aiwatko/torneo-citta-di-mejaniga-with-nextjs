@@ -1,5 +1,4 @@
 .header {
-    height: 50px;
     padding: 4px 8px;
 
     &__container {
@@ -123,8 +122,17 @@
                 }
             }
         }
+    }
 
-
+    &__nav-sublist {
+        background-color: #376513;
+        list-style: none;
+        padding: 0;
+        display: none;
+        
+        &.active {
+            display: block
+        }
     }
 }
 

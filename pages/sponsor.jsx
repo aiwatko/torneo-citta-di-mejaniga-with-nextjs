@@ -40,7 +40,7 @@ class Sponsors extends Component {
                     this.state.sponsorsContent &&
                     <Container>
                         <Title>{this.state.sponsorsContent.title}</Title>    
-                        <Image src='static/sponsors/sponsors.jpg' alt="Sponsors"/>                    
+                        <Image src='/static/sponsors/sponsors.jpg' alt="Sponsors"/>                    
                     </Container>
                 }
             </Layout>    

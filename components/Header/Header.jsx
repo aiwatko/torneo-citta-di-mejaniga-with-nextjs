@@ -58,7 +58,7 @@ class Header extends Component {
                                                 {
                                                     item.subitems
                                                         ?   <div>
-                                                                <Link><a className="header__nav-item-link" onClick={this.showSubnNav}>{item.label}</a></Link>
+                                                                <a className="header__nav-item-link" onClick={this.showSubnNav}>{item.label}</a>
                                                                 <ul className="header__nav-sublist">
                                                                     {
 																																			item.subitems.map(subitem => {

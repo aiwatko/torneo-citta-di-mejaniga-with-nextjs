@@ -24,7 +24,7 @@ class Rose extends Component {
                 {
                     <Container>
                         <Title>Rose</Title>    
-                        <Image src='/static/aggiornamenti/rose.jpeg' alt="Rose"/>                    
+                        <Image src='/static/aggiornamenti/rose.jpg' alt="Rose"/>                    
                     </Container>
                 }
             </Layout>    

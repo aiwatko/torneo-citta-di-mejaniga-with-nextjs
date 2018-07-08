@@ -24,7 +24,7 @@ class Calendario extends Component {
                 {
                     <Container>
                         <Title>Calendario</Title>    
-                        <Image src='/static/aggiornamenti/calendario.jpeg' alt="Calendario"/>                    
+                        <Image src='/static/aggiornamenti/calendario.jpg' alt="Calendario"/>                    
                     </Container>
                 }
             </Layout>    

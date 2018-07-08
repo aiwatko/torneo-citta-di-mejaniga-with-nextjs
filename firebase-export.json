@@ -3,38 +3,16 @@
     "__teamName": "HAKUNA MATATA",
     "_restDay": "Lunedi",
     "players": {
-      "H1H0dMdf7": {
-        "name": "Gianluca",
-        "surname": "Zanovello",
-        "birthYear": "1993",
-        "shirtNb": "10",
-        "id": "H1H0dMdf7",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3404147949",
-        "residence": "Via Agostino da montefeltro 4, Padova (PD)"
-      },
-      "B1OqczuzQ": {
-        "goalkeeper": false,
-        "phoneNb": "3406080462",
-        "residence": "Via zonaro 1, Padova (pd)",
-        "name": "Filippo",
-        "surname": "Berro",
-        "birthYear": "1991",
-        "shirtNb": "3",
-        "id": "B1OqczuzQ",
-        "captain": false
-      },
       "Sy5GqzOGQ": {
+        "goalkeeper": false,
+        "phoneNb": "3466921114",
+        "residence": "Via avisio 5, Padova (pd)",
         "name": "Nicoló",
         "surname": "Sarto",
         "birthYear": "1992",
         "shirtNb": "11",
         "id": "Sy5GqzOGQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3466921114",
-        "residence": "Via avisio 5, Padova (pd)"
+        "captain": false
       },
       "BkJb_MuM7": {
         "goalkeeper": false,
@@ -48,48 +26,48 @@
         "captain": true
       },
       "ry7xiMdMm": {
-        "id": "ry7xiMdMm",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3428063838",
         "residence": "Via palladio 24, cadoneghe (pd)",
         "name": "Lorenzo",
         "surname": "Faulisi",
         "birthYear": "1995",
-        "shirtNb": "8"
+        "shirtNb": "8",
+        "id": "ry7xiMdMm",
+        "captain": false
       },
       "Hkee1m_zm": {
-        "goalkeeper": false,
-        "phoneNb": "3337454854",
         "residence": "Via cantele 23, Padova (Pd)",
         "name": "Ali",
         "surname": "Chabno",
         "birthYear": "1995",
         "shirtNb": "5",
         "id": "Hkee1m_zm",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3337454854"
       },
       "H19GFfOzQ": {
-        "id": "H19GFfOzQ",
-        "captain": false,
         "goalkeeper": true,
         "phoneNb": "3335446544",
         "residence": "via j. Da montagnana 83, Padova (PD)",
         "name": "Luca",
         "surname": "Berto",
         "birthYear": "1991",
-        "shirtNb": "1"
+        "shirtNb": "1",
+        "id": "H19GFfOzQ",
+        "captain": false
       },
       "B148ymOGQ": {
-        "id": "B148ymOGQ",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3483396527",
         "residence": "Via Vecellio 44",
         "name": "Giacomo",
         "surname": "Chiarion",
         "birthYear": "1991",
-        "shirtNb": "6"
+        "shirtNb": "6",
+        "id": "B148ymOGQ",
+        "captain": false
       },
       "B1IDuzOGX": {
         "goalkeeper": false,
@@ -101,6 +79,28 @@
         "shirtNb": "7",
         "id": "B1IDuzOGX",
         "captain": false
+      },
+      "H1H0dMdf7": {
+        "id": "H1H0dMdf7",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3404147949",
+        "residence": "Via Agostino da montefeltro 4, Padova (PD)",
+        "name": "Gianluca",
+        "surname": "Zanovello",
+        "birthYear": "1993",
+        "shirtNb": "10"
+      },
+      "B1OqczuzQ": {
+        "residence": "Via zonaro 1, Padova (pd)",
+        "name": "Filippo",
+        "surname": "Berro",
+        "birthYear": "1991",
+        "shirtNb": "3",
+        "id": "B1OqczuzQ",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3406080462"
       }
     },
     "__collections__": {}
@@ -109,93 +109,49 @@
     "__teamName": "Sporting Noventa ",
     "_restDay": "Nessuno ",
     "players": {
-      "BJvENoXZQ": {
-        "name": "Tommaso ",
-        "surname": "Pierangelo ",
-        "birthYear": "1998",
-        "shirtNb": "4",
-        "id": "BJvENoXZQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3467288173",
-        "residence": "San Vito "
-      },
-      "rJpIUAf-m": {
-        "goalkeeper": false,
-        "phoneNb": "3467288173",
-        "residence": "Noventa  ",
-        "name": "Alessandro ",
-        "surname": "Candian",
-        "birthYear": "1991",
-        "shirtNb": "9",
-        "id": "rJpIUAf-m",
-        "captain": true
-      },
-      "r122ri_M7": {
-        "id": "r122ri_M7",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3467288173",
-        "residence": "Noventa Padovana ",
-        "name": "Riccardo ",
-        "surname": "Grassivaro ",
-        "birthYear": "1991",
-        "shirtNb": "5"
-      },
-      "B1HZjlX-Q": {
-        "goalkeeper": false,
-        "phoneNb": "3467288173",
-        "residence": "Mestrino ",
-        "name": "Matteo",
-        "surname": "Maregotto",
-        "birthYear": "1993",
-        "shirtNb": "2",
-        "id": "B1HZjlX-Q",
-        "captain": false
-      },
       "B1pvICGZ7": {
+        "id": "B1pvICGZ7",
+        "captain": true,
         "goalkeeper": false,
         "phoneNb": "3467288173",
         "residence": "Noventa  ",
         "name": "Alberto",
         "surname": "Candian",
         "birthYear": "1993",
-        "shirtNb": "7",
-        "id": "B1pvICGZ7",
-        "captain": true
+        "shirtNb": "7"
       },
       "B17QICfWm": {
+        "goalkeeper": true,
+        "phoneNb": "3467288173",
+        "residence": "Fiesso ",
         "name": "Nicolò ",
         "surname": "Giacomello ",
         "birthYear": "1991",
         "shirtNb": "1",
         "id": "B17QICfWm",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "3467288173",
-        "residence": "Fiesso "
+        "captain": false
       },
       "Hk7yiembQ": {
+        "id": "Hk7yiembQ",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3467288173",
         "residence": "Noventa  ",
         "name": "Marco",
         "surname": "pulze ",
         "birthYear": "1993",
-        "shirtNb": "10",
-        "id": "Hk7yiembQ",
-        "captain": false
+        "shirtNb": "10"
       },
       "B1mktjQ-Q": {
+        "goalkeeper": false,
+        "phoneNb": "3467288173",
+        "residence": "Pionca  ",
         "name": "Riccardo ",
         "surname": "Giora ",
         "birthYear": "1993",
         "shirtNb": "11",
         "id": "B1mktjQ-Q",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3467288173",
-        "residence": "Pionca  "
+        "captain": false
       },
       "Hkmmnl7W7": {
         "goalkeeper": false,
@@ -209,6 +165,7 @@
         "captain": false
       },
       "r139Nim-X": {
+        "residence": "Pionca  ",
         "name": "Andrea ",
         "surname": "Santon ",
         "birthYear": "1990",
@@ -216,8 +173,51 @@
         "id": "r139Nim-X",
         "captain": false,
         "goalkeeper": false,
+        "phoneNb": "3467288173"
+      },
+      "BJvENoXZQ": {
+        "residence": "San Vito ",
+        "name": "Tommaso ",
+        "surname": "Pierangelo ",
+        "birthYear": "1998",
+        "shirtNb": "4",
+        "id": "BJvENoXZQ",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3467288173"
+      },
+      "rJpIUAf-m": {
+        "id": "rJpIUAf-m",
+        "captain": true,
+        "goalkeeper": false,
         "phoneNb": "3467288173",
-        "residence": "Pionca  "
+        "residence": "Noventa  ",
+        "name": "Alessandro ",
+        "surname": "Candian",
+        "birthYear": "1991",
+        "shirtNb": "9"
+      },
+      "r122ri_M7": {
+        "goalkeeper": false,
+        "phoneNb": "3467288173",
+        "residence": "Noventa Padovana ",
+        "name": "Riccardo ",
+        "surname": "Grassivaro ",
+        "birthYear": "1991",
+        "shirtNb": "5",
+        "id": "r122ri_M7",
+        "captain": false
+      },
+      "B1HZjlX-Q": {
+        "id": "B1HZjlX-Q",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3467288173",
+        "residence": "Mestrino ",
+        "name": "Matteo",
+        "surname": "Maregotto",
+        "birthYear": "1993",
+        "shirtNb": "2"
       }
     },
     "__collections__": {}
@@ -226,6 +226,50 @@
     "__teamName": "IL BLOCCO",
     "_restDay": "nulla",
     "players": {
+      "S17XmlwbX": {
+        "goalkeeper": false,
+        "phoneNb": "3452174307",
+        "residence": "Cadoneghe",
+        "name": "Niccolò",
+        "surname": "Zampieri",
+        "birthYear": "2001",
+        "shirtNb": "21",
+        "id": "S17XmlwbX",
+        "captain": false
+      },
+      "Sy03zxDWQ": {
+        "goalkeeper": false,
+        "phoneNb": "3420321413",
+        "residence": "Campodarsego",
+        "name": "Devis ",
+        "surname": "Prevedello",
+        "birthYear": "2001",
+        "shirtNb": "91",
+        "id": "Sy03zxDWQ",
+        "captain": false
+      },
+      "Skzl4lvbQ": {
+        "id": "Skzl4lvbQ",
+        "captain": true,
+        "goalkeeper": false,
+        "phoneNb": "3474902903",
+        "residence": "Cadoneghe",
+        "name": "Alessio",
+        "surname": "Schiavon",
+        "birthYear": "2001",
+        "shirtNb": "7"
+      },
+      "H1sK-evbm": {
+        "goalkeeper": false,
+        "phoneNb": "3397380357",
+        "residence": "Pionca",
+        "name": "Lorenzo",
+        "surname": "Agostini",
+        "birthYear": "2001",
+        "shirtNb": "2",
+        "id": "H1sK-evbm",
+        "captain": false
+      },
       "Hy0Gflw-7": {
         "goalkeeper": false,
         "phoneNb": "3429444278",
@@ -258,80 +302,13 @@
         "shirtNb": "1",
         "id": "SJKkQxvb7",
         "captain": false
-      },
-      "S17XmlwbX": {
-        "goalkeeper": false,
-        "phoneNb": "3452174307",
-        "residence": "Cadoneghe",
-        "name": "Niccolò",
-        "surname": "Zampieri",
-        "birthYear": "2001",
-        "shirtNb": "21",
-        "id": "S17XmlwbX",
-        "captain": false
-      },
-      "Sy03zxDWQ": {
-        "name": "Devis ",
-        "surname": "Prevedello",
-        "birthYear": "2001",
-        "shirtNb": "91",
-        "id": "Sy03zxDWQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3420321413",
-        "residence": "Campodarsego"
-      },
-      "Skzl4lvbQ": {
-        "name": "Alessio",
-        "surname": "Schiavon",
-        "birthYear": "2001",
-        "shirtNb": "7",
-        "id": "Skzl4lvbQ",
-        "captain": true,
-        "goalkeeper": false,
-        "phoneNb": "3474902903",
-        "residence": "Cadoneghe"
-      },
-      "H1sK-evbm": {
-        "goalkeeper": false,
-        "phoneNb": "3397380357",
-        "residence": "Pionca",
-        "name": "Lorenzo",
-        "surname": "Agostini",
-        "birthYear": "2001",
-        "shirtNb": "2",
-        "id": "H1sK-evbm",
-        "captain": false
       }
     },
     "__collections__": {}
   },
   "alex.pelizzaro1980@gmail.com": {
-    "__teamName": "Bottega del colore",
     "_restDay": "Giovedi",
     "players": {
-      "BJaDNUWGm": {
-        "goalkeeper": false,
-        "phoneNb": "3491358832",
-        "residence": "Stra",
-        "name": "Edoardo",
-        "surname": "Segato",
-        "birthYear": "2001",
-        "shirtNb": "7",
-        "id": "BJaDNUWGm",
-        "captain": false
-      },
-      "BJ8XVLbf7": {
-        "id": "BJ8XVLbf7",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3491358832",
-        "residence": "Stra",
-        "name": "Alessio",
-        "surname": "Convento",
-        "birthYear": "1998",
-        "shirtNb": "8"
-      },
       "SyEpX8-zQ": {
         "goalkeeper": true,
         "phoneNb": "3491358832",
@@ -355,26 +332,26 @@
         "captain": false
       },
       "HyQCXLZMm": {
-        "id": "HyQCXLZMm",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3491358832",
         "residence": "Stra",
         "name": "Daniel",
         "surname": "Pelizzaro",
         "birthYear": "2001",
-        "shirtNb": "10"
+        "shirtNb": "10",
+        "id": "HyQCXLZMm",
+        "captain": false
       },
       "HkPWN8Zz7": {
-        "id": "HkPWN8Zz7",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3491358832",
         "residence": "Stra",
         "name": "Marco",
         "surname": "Colomba ",
         "birthYear": "1998",
-        "shirtNb": "9"
+        "shirtNb": "9",
+        "id": "HkPWN8Zz7",
+        "captain": false
       },
       "H1spQL-MX": {
         "id": "H1spQL-MX",
@@ -388,26 +365,26 @@
         "shirtNb": "10"
       },
       "ry65Q8-M7": {
-        "name": "Luca ",
-        "surname": "Pulino",
-        "birthYear": "1987",
-        "shirtNb": "1",
         "id": "ry65Q8-M7",
         "captain": false,
         "goalkeeper": true,
         "phoneNb": "3491358832",
-        "residence": "Vigono"
+        "residence": "Vigono",
+        "name": "Luca ",
+        "surname": "Pulino",
+        "birthYear": "1987",
+        "shirtNb": "1"
       },
       "B1XqVIZzX": {
+        "id": "B1XqVIZzX",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3491358832",
         "residence": "Tombelle",
         "name": "Alessandro",
         "surname": "Rizzi",
         "birthYear": "1994",
-        "shirtNb": "7",
-        "id": "B1XqVIZzX",
-        "captain": false
+        "shirtNb": "7"
       },
       "HyRB7IWzQ": {
         "goalkeeper": false,
@@ -419,24 +396,46 @@
         "shirtNb": "4",
         "id": "HyRB7IWzQ",
         "captain": true
+      },
+      "BJaDNUWGm": {
+        "goalkeeper": false,
+        "phoneNb": "3491358832",
+        "residence": "Stra",
+        "name": "Edoardo",
+        "surname": "Segato",
+        "birthYear": "2001",
+        "shirtNb": "7",
+        "id": "BJaDNUWGm",
+        "captain": false
+      },
+      "BJ8XVLbf7": {
+        "goalkeeper": false,
+        "phoneNb": "3491358832",
+        "residence": "Stra",
+        "name": "Alessio",
+        "surname": "Convento",
+        "birthYear": "1998",
+        "shirtNb": "8",
+        "id": "BJ8XVLbf7",
+        "captain": false
       }
     },
+    "__teamName": "Bottega del colore",
     "__collections__": {}
   },
   "andreabeltramello97@gmail.com": {
-    "__teamName": "Gajardi",
     "_restDay": "Martedi",
     "players": {
-      "SJTlbrFWm": {
+      "H1dneHYZX": {
+        "id": "H1dneHYZX",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "",
-        "residence": "Stra",
-        "name": "Umberto",
-        "surname": "Canton",
-        "birthYear": "1995",
-        "shirtNb": "22",
-        "id": "SJTlbrFWm",
-        "captain": false
+        "residence": "Perarolo",
+        "name": "Damiano",
+        "surname": "Maretto",
+        "birthYear": "1997",
+        "shirtNb": "8"
       },
       "rkcVgHK-m": {
         "goalkeeper": false,
@@ -450,26 +449,15 @@
         "captain": false
       },
       "HkqqgBKZX": {
-        "goalkeeper": false,
-        "phoneNb": "",
         "residence": "Fossò",
         "name": "Edoardo",
         "surname": "Mancin",
         "birthYear": "1997",
         "shirtNb": "6",
         "id": "HkqqgBKZX",
-        "captain": true
-      },
-      "HkbOeHY-7": {
-        "name": "Simone",
-        "surname": "Menin",
-        "birthYear": "1997",
-        "shirtNb": "5",
-        "id": "HkbOeHY-7",
-        "captain": false,
+        "captain": true,
         "goalkeeper": false,
-        "phoneNb": "",
-        "residence": "Perarolo"
+        "phoneNb": ""
       },
       "SkLIxBFbm": {
         "goalkeeper": false,
@@ -482,62 +470,41 @@
         "id": "SkLIxBFbm",
         "captain": false
       },
-      "SJ71WSFWX": {
-        "name": "Giacomo",
-        "surname": "Lincetto",
-        "birthYear": "1994",
-        "shirtNb": "10",
-        "id": "SJ71WSFWX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "",
-        "residence": "Stra"
-      },
       "HJT6lHtWQ": {
-        "goalkeeper": false,
-        "phoneNb": "",
         "residence": "Stra",
         "name": "Leonardo",
         "surname": "Benetti",
         "birthYear": "1997",
         "shirtNb": "9",
         "id": "HJT6lHtWQ",
-        "captain": false
-      },
-      "ryYz-SKbQ": {
-        "id": "ryYz-SKbQ",
         "captain": false,
         "goalkeeper": false,
-        "phoneNb": "",
+        "phoneNb": ""
+      },
+      "ryYz-SKbQ": {
         "residence": "Arino",
         "name": "Gianmarco",
         "surname": "Gobbo",
         "birthYear": "1997",
-        "shirtNb": "11"
+        "shirtNb": "11",
+        "id": "ryYz-SKbQ",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": ""
       },
       "B1UzxBtbQ": {
-        "id": "B1UzxBtbQ",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "",
         "residence": "Fiesso",
         "name": "Massimiliano",
         "surname": "Gallo",
         "birthYear": "1997",
-        "shirtNb": "1"
-      },
-      "H1dneHYZX": {
-        "name": "Damiano",
-        "surname": "Maretto",
-        "birthYear": "1997",
-        "shirtNb": "8",
-        "id": "H1dneHYZX",
+        "shirtNb": "1",
+        "id": "B1UzxBtbQ",
         "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "",
-        "residence": "Perarolo"
+        "goalkeeper": true,
+        "phoneNb": ""
       }
     },
+    "__teamName": "Gajardi",
     "__collections__": {}
   },
   "catalin_burciu@yahoo.com": {
@@ -546,41 +513,62 @@
     "__collections__": {}
   },
   "chillonr@gmail.com": {
-    "__teamName": "Mejaniga United",
     "_restDay": "Lunedì",
     "players": {
+      "H1v8NuTgm": {
+        "goalkeeper": true,
+        "phoneNb": "3396481988",
+        "residence": "Via spinetti 49",
+        "name": "Giovanni ",
+        "surname": "Pozzuoli",
+        "birthYear": "",
+        "shirtNb": "1",
+        "id": "H1v8NuTgm",
+        "captain": false
+      },
+      "rJYRJOpem": {
+        "id": "rJYRJOpem",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3391665307",
+        "residence": "Via trilussa 32",
+        "name": "Marco",
+        "surname": "Haber",
+        "birthYear": "",
+        "shirtNb": "3"
+      },
       "B1B5bdagm": {
+        "goalkeeper": false,
+        "phoneNb": "3317755180",
+        "residence": "Via Firenze 9",
         "name": "Gabriele",
         "surname": "Orlandi",
         "birthYear": "",
         "shirtNb": "8",
         "id": "B1B5bdagm",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3317755180",
-        "residence": "Via Firenze 9"
+        "captain": false
       },
       "rJHoGdaxQ": {
-        "id": "rJHoGdaxQ",
-        "captain": true,
         "goalkeeper": false,
         "phoneNb": "3453619202",
         "residence": "Via Roma 2",
         "name": "Riccardo ",
         "surname": "Chillon",
         "birthYear": "",
-        "shirtNb": "9"
+        "shirtNb": "9",
+        "id": "rJHoGdaxQ",
+        "captain": true
       },
       "r1hWEuTgX": {
-        "id": "r1hWEuTgX",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3492939662",
         "residence": "Via isola di torre 10",
         "name": "Gianluca ",
         "surname": "Pagano",
         "birthYear": "",
-        "shirtNb": "10"
+        "shirtNb": "10",
+        "id": "r1hWEuTgX",
+        "captain": false
       },
       "rJQvMOalQ": {
         "goalkeeper": false,
@@ -594,89 +582,37 @@
         "captain": false
       },
       "SkybmuaeX": {
-        "name": "Alessio",
-        "surname": "Rosso",
-        "birthYear": "",
-        "shirtNb": "7",
         "id": "SkybmuaeX",
         "captain": false,
         "goalkeeper": false,
         "phoneNb": "3701018133",
-        "residence": "Via Don G rettore"
-      },
-      "H1v8NuTgm": {
-        "name": "Giovanni ",
-        "surname": "Pozzuoli",
+        "residence": "Via Don G rettore",
+        "name": "Alessio",
+        "surname": "Rosso",
         "birthYear": "",
-        "shirtNb": "1",
-        "id": "H1v8NuTgm",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "3396481988",
-        "residence": "Via spinetti 49"
-      },
-      "rJYRJOpem": {
-        "id": "rJYRJOpem",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3391665307",
-        "residence": "Via trilussa 32",
-        "name": "Marco",
-        "surname": "Haber",
-        "birthYear": "",
-        "shirtNb": "3"
+        "shirtNb": "7"
       }
     },
+    "__teamName": "Mejaniga United",
     "__collections__": {}
   },
   "davide_3397@hotmail.it": {
+    "__teamName": "Junior camp Team ",
     "_restDay": "Lunedì ",
     "players": {
-      "S1X8mUtzX": {
-        "birthYear": "2001",
-        "shirtNb": "10",
-        "id": "S1X8mUtzX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3457679809",
-        "residence": "Via bragni 37",
-        "name": "Alberto",
-        "surname": "Pegoraro"
-      },
-      "BJsO4LKGX": {
-        "goalkeeper": false,
-        "phoneNb": "3427628537",
-        "residence": "Via Cipro ",
-        "name": "Luca ",
-        "surname": "Giacon",
-        "birthYear": "2000",
-        "shirtNb": "69",
-        "id": "BJsO4LKGX",
-        "captain": true
-      },
-      "Bk4KXUFz7": {
-        "phoneNb": "3462895371",
-        "residence": "Via Cipro 30",
-        "name": "Davide",
-        "surname": "Favaro ",
-        "birthYear": "1997",
-        "shirtNb": "33",
-        "id": "Bk4KXUFz7",
-        "captain": false,
-        "goalkeeper": false
-      },
       "BkkxHUKM7": {
-        "birthYear": "1998",
-        "shirtNb": "9",
-        "id": "BkkxHUKM7",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3425619957",
         "residence": "Via Gramsci 89",
         "name": "Giacomo",
-        "surname": "Favaro"
+        "surname": "Favaro",
+        "birthYear": "1998",
+        "shirtNb": "9",
+        "id": "BkkxHUKM7",
+        "captain": false
       },
       "H1RVSLFzQ": {
+        "goalkeeper": true,
         "phoneNb": "3451732366",
         "residence": "Via cimarosa",
         "name": "Ivam",
@@ -684,154 +620,175 @@
         "birthYear": "1998",
         "shirtNb": "1",
         "id": "H1RVSLFzQ",
-        "captain": false,
-        "goalkeeper": true
+        "captain": false
       },
       "ryjcSLtG7": {
+        "id": "ryjcSLtG7",
+        "captain": false,
         "goalkeeper": true,
         "phoneNb": "3474925303",
         "residence": "Via G. Leopardi 90",
         "name": "Matteo",
         "surname": "Fanton",
         "birthYear": "2001",
-        "shirtNb": "6",
-        "id": "ryjcSLtG7",
-        "captain": false
+        "shirtNb": "6"
       },
       "B1Qh4UKfQ": {
-        "birthYear": "2001",
-        "shirtNb": "3",
         "id": "B1Qh4UKfQ",
         "captain": false,
         "goalkeeper": false,
         "phoneNb": "3496858369",
         "residence": "Via Trilussa",
         "name": "Carlo",
-        "surname": "Sarti"
+        "surname": "Sarti",
+        "birthYear": "2001",
+        "shirtNb": "3"
       },
       "Hkrx4IYGQ": {
+        "id": "Hkrx4IYGQ",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3409763910",
         "residence": "Via Cipro ",
         "name": "Jacopo",
         "surname": "Righetto",
         "birthYear": "2000",
-        "shirtNb": "7",
-        "id": "Hkrx4IYGQ",
+        "shirtNb": "7"
+      },
+      "S1X8mUtzX": {
+        "goalkeeper": false,
+        "phoneNb": "3457679809",
+        "residence": "Via bragni 37",
+        "name": "Alberto",
+        "surname": "Pegoraro",
+        "birthYear": "2001",
+        "shirtNb": "10",
+        "id": "S1X8mUtzX",
+        "captain": false
+      },
+      "BJsO4LKGX": {
+        "residence": "Via Cipro ",
+        "name": "Luca ",
+        "surname": "Giacon",
+        "birthYear": "2000",
+        "shirtNb": "69",
+        "id": "BJsO4LKGX",
+        "captain": true,
+        "goalkeeper": false,
+        "phoneNb": "3427628537"
+      },
+      "Bk4KXUFz7": {
+        "goalkeeper": false,
+        "phoneNb": "3462895371",
+        "residence": "Via Cipro 30",
+        "name": "Davide",
+        "surname": "Favaro ",
+        "birthYear": "1997",
+        "shirtNb": "33",
+        "id": "Bk4KXUFz7",
         "captain": false
       }
     },
-    "__teamName": "Junior camp Team ",
     "__collections__": {}
   },
   "davidegiaco40@gmail.com": {
     "__teamName": "Real vandura",
     "_restDay": "9 ",
     "players": {
-      "r1tuStMM7": {
-        "name": "Alessandro",
-        "surname": "Zanetto",
-        "birthYear": "",
-        "shirtNb": "7",
-        "id": "r1tuStMM7",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3707028578",
-        "residence": "Padova"
-      },
-      "SJzyHYGzX": {
-        "id": "SJzyHYGzX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3494257879",
-        "residence": "Padova",
-        "name": "Pasquale",
-        "surname": "Marando",
-        "birthYear": "",
-        "shirtNb": "10"
-      },
-      "BkFtVFfG7": {
-        "goalkeeper": false,
-        "phoneNb": "3478388573",
-        "residence": "Padova",
-        "name": "Teo",
-        "surname": "Goldin",
-        "birthYear": "",
-        "shirtNb": "5",
-        "id": "BkFtVFfG7",
-        "captain": false
-      },
-      "r1ut5uzGm": {
-        "name": "Davide",
-        "surname": "Giacomini",
-        "birthYear": "",
-        "shirtNb": "17",
-        "id": "r1ut5uzGm",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3493442426",
-        "residence": "Padova "
-      },
       "B1HZ-FffX": {
-        "id": "B1HZ-FffX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3409463357",
         "residence": "Padova",
         "name": "Giulio",
         "surname": "Dal molin",
         "birthYear": "",
-        "shirtNb": "4"
+        "shirtNb": "4",
+        "id": "B1HZ-FffX",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3409463357"
       },
       "B1CYkKGfX": {
+        "id": "B1CYkKGfX",
+        "captain": true,
         "goalkeeper": false,
         "phoneNb": "3461336055",
         "residence": "Padova",
         "name": "Francesco",
         "surname": "Trotta",
         "birthYear": "",
-        "shirtNb": "6",
-        "id": "B1CYkKGfX",
-        "captain": true
+        "shirtNb": "6"
       },
       "SJb0kFzfQ": {
-        "goalkeeper": true,
-        "phoneNb": "3347157282",
         "residence": "Padova",
         "name": "Mattia",
         "surname": "Cesaro",
         "birthYear": "",
         "shirtNb": "1",
         "id": "SJb0kFzfQ",
+        "captain": false,
+        "goalkeeper": true,
+        "phoneNb": "3347157282"
+      },
+      "r1tuStMM7": {
+        "goalkeeper": false,
+        "phoneNb": "3707028578",
+        "residence": "Padova",
+        "name": "Alessandro",
+        "surname": "Zanetto",
+        "birthYear": "",
+        "shirtNb": "7",
+        "id": "r1tuStMM7",
         "captain": false
+      },
+      "SJzyHYGzX": {
+        "residence": "Padova",
+        "name": "Pasquale",
+        "surname": "Marando",
+        "birthYear": "",
+        "shirtNb": "10",
+        "id": "SJzyHYGzX",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3494257879"
+      },
+      "BkFtVFfG7": {
+        "id": "BkFtVFfG7",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3478388573",
+        "residence": "Padova",
+        "name": "Teo",
+        "surname": "Goldin",
+        "birthYear": "",
+        "shirtNb": "5"
+      },
+      "r1ut5uzGm": {
+        "id": "r1ut5uzGm",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3493442426",
+        "residence": "Padova ",
+        "name": "Davide",
+        "surname": "Giacomini",
+        "birthYear": "",
+        "shirtNb": "17"
       }
     },
     "__collections__": {}
   },
   "galtarossa.franco@gmail.com": {
+    "__teamName": "Improbabili",
     "_restDay": "Mercoledì",
     "players": {
-      "HJOvl7IMm": {
-        "birthYear": "1991",
-        "shirtNb": "14",
-        "id": "HJOvl7IMm",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "3661212715",
-        "residence": "Padova",
-        "name": "Riccardo",
-        "surname": "Rosso"
-      },
       "r1maWXUzX": {
-        "birthYear": "1989",
-        "shirtNb": "10",
-        "id": "r1maWXUzX",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3406794775",
         "residence": "Padova",
         "name": "Carlo",
-        "surname": "Morello"
+        "surname": "Morello",
+        "birthYear": "1989",
+        "shirtNb": "10",
+        "id": "r1maWXUzX",
+        "captain": false
       },
       "B1XXGmUfm": {
         "goalkeeper": false,
@@ -845,15 +802,15 @@
         "captain": false
       },
       "HyvlbXLfQ": {
-        "goalkeeper": false,
-        "phoneNb": "3392938385",
         "residence": "Padova",
         "name": "Nicola",
         "surname": "Paccagnella",
         "birthYear": "1991",
         "shirtNb": "6",
         "id": "HyvlbXLfQ",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3392938385"
       },
       "r15xGmIfQ": {
         "goalkeeper": false,
@@ -878,17 +835,18 @@
         "captain": false
       },
       "ry9Db78zX": {
+        "id": "ry9Db78zX",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3401416966",
         "residence": "Padova",
         "name": "Samuele",
         "surname": "Quaggiato",
         "birthYear": "1994",
-        "shirtNb": "8",
-        "id": "ry9Db78zX",
-        "captain": false
+        "shirtNb": "8"
       },
       "SJPX-mIzm": {
+        "goalkeeper": false,
         "phoneNb": "3497162113",
         "residence": "Padova",
         "name": "Marco",
@@ -896,39 +854,36 @@
         "birthYear": "1990",
         "shirtNb": "7",
         "id": "SJPX-mIzm",
-        "captain": false,
-        "goalkeeper": false
+        "captain": false
       },
       "SJG5lX8fX": {
-        "birthYear": "1988",
-        "shirtNb": "4",
         "id": "SJG5lX8fX",
         "captain": true,
         "goalkeeper": false,
         "phoneNb": "3488585440",
         "residence": "Padova",
         "name": "Franco",
-        "surname": "Galtarossa"
+        "surname": "Galtarossa",
+        "birthYear": "1988",
+        "shirtNb": "4"
+      },
+      "HJOvl7IMm": {
+        "id": "HJOvl7IMm",
+        "captain": false,
+        "goalkeeper": true,
+        "phoneNb": "3661212715",
+        "residence": "Padova",
+        "name": "Riccardo",
+        "surname": "Rosso",
+        "birthYear": "1991",
+        "shirtNb": "14"
       }
     },
-    "__teamName": "Improbabili",
     "__collections__": {}
   },
   "giacomo.carpanese@gmail.com": {
-    "__teamName": "Utopia UK",
     "_restDay": "Lunedì",
     "players": {
-      "rJtuVNtlQ": {
-        "name": "Tomas   ",
-        "surname": "Grassivaro   ",
-        "birthYear": "1985",
-        "shirtNb": "5",
-        "id": "rJtuVNtlQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3403421119",
-        "residence": "Via martiri della libertà 41, Noventa Padovana"
-      },
       "SynUQVKe7": {
         "goalkeeper": false,
         "phoneNb": "3454644244",
@@ -952,26 +907,26 @@
         "captain": false
       },
       "SJb64VtxQ": {
-        "id": "SJb64VtxQ",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3493683958",
         "residence": "Via martiri della libertà 14, Vigonza ",
         "name": "Andrea",
         "surname": "Carpanese",
         "birthYear": "1996",
-        "shirtNb": "10"
+        "shirtNb": "10",
+        "id": "SJb64VtxQ",
+        "captain": false
       },
       "SysWEVYeX": {
-        "id": "SysWEVYeX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3407751256",
         "residence": "Via 1 Maggio, Vigonza ",
         "name": "Alessandro  ",
         "surname": "Giacomini  ",
         "birthYear": "1997",
-        "shirtNb": "7"
+        "shirtNb": "7",
+        "id": "SysWEVYeX",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3407751256"
       },
       "ByjNrVYe7": {
         "goalkeeper": false,
@@ -985,54 +940,78 @@
         "captain": false
       },
       "HyAQGr1W7": {
-        "goalkeeper": false,
-        "phoneNb": "3394212036",
         "residence": "Arsego",
         "name": "Dario ",
         "surname": "Pagano",
         "birthYear": "1993",
         "shirtNb": "8",
         "id": "HyAQGr1W7",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3394212036"
       },
       "rJK4wNYeQ": {
-        "goalkeeper": false,
-        "phoneNb": "3482764941",
         "residence": "Via Martiri della Libertà 14, Vigonza  ",
         "name": "Giovanni ",
         "surname": "Carpanese  ",
         "birthYear": "1993",
         "shirtNb": "3",
         "id": "rJK4wNYeQ",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3482764941"
       },
       "SkdcH4tlm": {
+        "goalkeeper": true,
+        "phoneNb": "320 0588760",
+        "residence": "Via Martiri della Libertà 16  ",
         "name": "Francesco ",
         "surname": "Burattin  ",
         "birthYear": "2000",
         "shirtNb": "1",
         "id": "SkdcH4tlm",
+        "captain": false
+      },
+      "rJtuVNtlQ": {
+        "id": "rJtuVNtlQ",
         "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "320 0588760",
-        "residence": "Via Martiri della Libertà 16  "
+        "goalkeeper": false,
+        "phoneNb": "3403421119",
+        "residence": "Via martiri della libertà 41, Noventa Padovana",
+        "name": "Tomas   ",
+        "surname": "Grassivaro   ",
+        "birthYear": "1985",
+        "shirtNb": "5"
       }
     },
+    "__teamName": "Utopia UK",
     "__collections__": {}
   },
   "giacomo.vieno@gmail.com": {
+    "__teamName": "Brenthaus",
     "_restDay": "lunedi",
     "players": {
+      "SyGr-AmWm": {
+        "goalkeeper": false,
+        "phoneNb": "3484040417",
+        "residence": "Vigodarzere",
+        "name": "Nicola",
+        "surname": "Vettore",
+        "birthYear": "1991",
+        "shirtNb": "10",
+        "id": "SyGr-AmWm",
+        "captain": false
+      },
       "HJGdeA7bQ": {
+        "id": "HJGdeA7bQ",
+        "captain": false,
+        "goalkeeper": false,
         "phoneNb": "3488849677",
         "residence": "Saletto di Vigodarzere",
         "name": "Marco ",
         "surname": "Libero",
         "birthYear": "1992",
-        "shirtNb": "59",
-        "id": "HJGdeA7bQ",
-        "captain": false,
-        "goalkeeper": false
+        "shirtNb": "59"
       },
       "Bk4pDsXZX": {
         "goalkeeper": false,
@@ -1057,29 +1036,28 @@
         "captain": false
       },
       "SkEeWC7ZX": {
+        "id": "SkEeWC7ZX",
+        "captain": true,
         "goalkeeper": false,
         "phoneNb": "3483529711",
         "residence": "Vigodarzere",
         "name": "Davide",
         "surname": "Salmaso",
         "birthYear": "1992",
-        "shirtNb": "14",
-        "id": "SkEeWC7ZX",
-        "captain": true
+        "shirtNb": "14"
       },
       "Syl6eCQ-m": {
+        "residence": "Selvazzano Dentro",
+        "name": "Enrico ",
+        "surname": "Cretella",
         "birthYear": "1987",
         "shirtNb": "22",
         "id": "Syl6eCQ-m",
         "captain": false,
         "goalkeeper": false,
-        "phoneNb": "3289627812",
-        "residence": "Selvazzano Dentro",
-        "name": "Enrico ",
-        "surname": "Cretella"
+        "phoneNb": "3289627812"
       },
       "H1DWz0mZm": {
-        "phoneNb": "3409687856",
         "residence": "Ronchi di Villafranca PD",
         "name": "Riccardo",
         "surname": "Donà",
@@ -1087,7 +1065,8 @@
         "shirtNb": "23",
         "id": "H1DWz0mZm",
         "captain": false,
-        "goalkeeper": true
+        "goalkeeper": true,
+        "phoneNb": "3409687856"
       },
       "HyK4dMYZm": {
         "goalkeeper": false,
@@ -1101,6 +1080,7 @@
         "captain": false
       },
       "r16nbCmb7": {
+        "goalkeeper": false,
         "phoneNb": "3339991668",
         "residence": "Cittadella",
         "name": "Filippo",
@@ -1108,92 +1088,13 @@
         "birthYear": "1995",
         "shirtNb": "4",
         "id": "r16nbCmb7",
-        "captain": false,
-        "goalkeeper": false
-      },
-      "SyGr-AmWm": {
-        "birthYear": "1991",
-        "shirtNb": "10",
-        "id": "SyGr-AmWm",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3484040417",
-        "residence": "Vigodarzere",
-        "name": "Nicola",
-        "surname": "Vettore"
+        "captain": false
       }
     },
-    "__teamName": "Brenthaus",
     "__collections__": {}
   },
   "giacomobalbo97@gmail.com": {
     "players": {
-      "HJF3OJSfX": {
-        "goalkeeper": false,
-        "phoneNb": "3466993761",
-        "residence": "Padova",
-        "name": "Giovanni",
-        "surname": "Ventulini",
-        "birthYear": "1997",
-        "shirtNb": "2",
-        "id": "HJF3OJSfX",
-        "captain": false
-      },
-      "SkrmYySGX": {
-        "name": "Alex",
-        "surname": "Rumleanschi",
-        "birthYear": "1997",
-        "shirtNb": "4",
-        "id": "SkrmYySGX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3490792706",
-        "residence": "Padova"
-      },
-      "rJL0Y1SzQ": {
-        "goalkeeper": false,
-        "phoneNb": "3401131169",
-        "residence": "Padova",
-        "name": "Leonardo",
-        "surname": "Rossi",
-        "birthYear": "1997",
-        "shirtNb": "8",
-        "id": "rJL0Y1SzQ",
-        "captain": false
-      },
-      "BkQnYySfQ": {
-        "goalkeeper": false,
-        "phoneNb": "3341972328",
-        "residence": "Padova",
-        "name": "Matteo",
-        "surname": "Pinton",
-        "birthYear": "1998",
-        "shirtNb": "7",
-        "id": "BkQnYySfQ",
-        "captain": false
-      },
-      "BklGcyBMQ": {
-        "goalkeeper": false,
-        "phoneNb": "3493052136",
-        "residence": "Padova",
-        "name": "Riccardo",
-        "surname": "Brugnolo",
-        "birthYear": "1998",
-        "shirtNb": "9",
-        "id": "BklGcyBMQ",
-        "captain": false
-      },
-      "HJJwFJHfQ": {
-        "goalkeeper": false,
-        "phoneNb": "3484327868",
-        "residence": "Padova",
-        "name": "Habtamu",
-        "surname": "Santi",
-        "birthYear": "1998",
-        "shirtNb": "5",
-        "id": "HJJwFJHfQ",
-        "captain": false
-      },
       "SkzyF1Bf7": {
         "goalkeeper": false,
         "phoneNb": "3408487263",
@@ -1206,6 +1107,7 @@
         "captain": false
       },
       "Hy9FY1Bfm": {
+        "residence": "Padova",
         "name": "Stefano",
         "surname": "Visentini",
         "birthYear": "1998",
@@ -1213,156 +1115,167 @@
         "id": "Hy9FY1Bfm",
         "captain": false,
         "goalkeeper": false,
-        "phoneNb": "3467715874",
-        "residence": "Padova"
+        "phoneNb": "3467715874"
       },
       "HkxvuyHGQ": {
-        "goalkeeper": true,
-        "phoneNb": "3409303883",
         "residence": "Padova",
         "name": "Gianluca ",
         "surname": "Gusso",
         "birthYear": "1998",
         "shirtNb": "1",
         "id": "HkxvuyHGQ",
-        "captain": true
+        "captain": true,
+        "goalkeeper": true,
+        "phoneNb": "3409303883"
+      },
+      "SkrmYySGX": {
+        "goalkeeper": false,
+        "phoneNb": "3490792706",
+        "residence": "Padova",
+        "name": "Alex",
+        "surname": "Rumleanschi",
+        "birthYear": "1997",
+        "shirtNb": "4",
+        "id": "SkrmYySGX",
+        "captain": false
+      },
+      "rJL0Y1SzQ": {
+        "goalkeeper": false,
+        "phoneNb": "3401131169",
+        "residence": "Padova",
+        "name": "Leonardo",
+        "surname": "Rossi",
+        "birthYear": "1997",
+        "shirtNb": "8",
+        "id": "rJL0Y1SzQ",
+        "captain": false
+      },
+      "BklGcyBMQ": {
+        "residence": "Padova",
+        "name": "Riccardo",
+        "surname": "Brugnolo",
+        "birthYear": "1998",
+        "shirtNb": "9",
+        "id": "BklGcyBMQ",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3493052136"
+      },
+      "HJJwFJHfQ": {
+        "goalkeeper": false,
+        "phoneNb": "3484327868",
+        "residence": "Padova",
+        "name": "Habtamu",
+        "surname": "Santi",
+        "birthYear": "1998",
+        "shirtNb": "5",
+        "id": "HJJwFJHfQ",
+        "captain": false
       }
     },
     "__collections__": {}
   },
   "giammarco.zuin@gmail.com": {
+    "__teamName": "WHISTLE",
     "_restDay": "MERCOLEDI'",
     "players": {
-      "SJBFy58gX": {
-        "birthYear": "1994",
-        "shirtNb": "22",
-        "id": "SJBFy58gX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "",
-        "residence": "Cadoneghe",
-        "name": "Fabio",
-        "surname": "Minotto"
-      },
-      "SyEO15IgQ": {
-        "goalkeeper": false,
-        "phoneNb": "",
-        "residence": "Cadoneghe",
-        "name": "Gabriele",
-        "surname": "Conte",
-        "birthYear": "1994",
-        "shirtNb": "94",
-        "id": "SyEO15IgQ",
-        "captain": false
-      },
-      "r17iycLl7": {
-        "goalkeeper": false,
-        "phoneNb": "",
-        "residence": "Cadoneghe",
-        "name": "Filippo",
-        "surname": "Benetello",
-        "birthYear": "1994",
-        "shirtNb": "99",
-        "id": "r17iycLl7",
-        "captain": false
-      },
-      "B1Sy-5Ulm": {
-        "birthYear": "1994",
-        "shirtNb": "1",
-        "id": "B1Sy-5Ulm",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "",
-        "residence": "Vigonza",
-        "name": "Matteo",
-        "surname": "Baldan"
-      },
-      "S1Jr15IlX": {
-        "birthYear": "1994",
-        "shirtNb": "61",
-        "id": "S1Jr15IlX",
-        "captain": true,
-        "goalkeeper": false,
-        "phoneNb": "",
-        "residence": "Cadoneghe",
-        "name": "Leonardo",
-        "surname": "Schiavon"
-      },
-      "BJ38k9Uem": {
-        "phoneNb": "3332730905",
-        "residence": "Cadoneghe",
-        "name": "Giammarco",
-        "surname": "Zuin",
-        "birthYear": "1994",
-        "shirtNb": "17",
-        "id": "BJ38k9Uem",
-        "captain": false,
-        "goalkeeper": false
-      },
       "SJzcJqIx7": {
-        "birthYear": "1994",
-        "shirtNb": "12",
-        "id": "SJzcJqIx7",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "",
         "residence": "Cadoneghe",
         "name": "Nicolò ",
-        "surname": "Ranzato"
+        "surname": "Ranzato",
+        "birthYear": "1994",
+        "shirtNb": "12",
+        "id": "SJzcJqIx7",
+        "captain": false
       },
       "ByE6y98lX": {
-        "birthYear": "1994",
-        "shirtNb": "80",
         "id": "ByE6y98lX",
         "captain": false,
         "goalkeeper": false,
         "phoneNb": "",
         "residence": "Cadoneghe",
         "name": "Riccardo",
-        "surname": "Lunardi"
+        "surname": "Lunardi",
+        "birthYear": "1994",
+        "shirtNb": "80"
+      },
+      "SJBFy58gX": {
+        "id": "SJBFy58gX",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "",
+        "residence": "Cadoneghe",
+        "name": "Fabio",
+        "surname": "Minotto",
+        "birthYear": "1994",
+        "shirtNb": "22"
+      },
+      "SyEO15IgQ": {
+        "id": "SyEO15IgQ",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "",
+        "residence": "Cadoneghe",
+        "name": "Gabriele",
+        "surname": "Conte",
+        "birthYear": "1994",
+        "shirtNb": "94"
+      },
+      "r17iycLl7": {
+        "id": "r17iycLl7",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "",
+        "residence": "Cadoneghe",
+        "name": "Filippo",
+        "surname": "Benetello",
+        "birthYear": "1994",
+        "shirtNb": "99"
+      },
+      "B1Sy-5Ulm": {
+        "residence": "Vigonza",
+        "name": "Matteo",
+        "surname": "Baldan",
+        "birthYear": "1994",
+        "shirtNb": "1",
+        "id": "B1Sy-5Ulm",
+        "captain": false,
+        "goalkeeper": true,
+        "phoneNb": ""
+      },
+      "S1Jr15IlX": {
+        "goalkeeper": false,
+        "phoneNb": "",
+        "residence": "Cadoneghe",
+        "name": "Leonardo",
+        "surname": "Schiavon",
+        "birthYear": "1994",
+        "shirtNb": "61",
+        "id": "S1Jr15IlX",
+        "captain": true
+      },
+      "BJ38k9Uem": {
+        "id": "BJ38k9Uem",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3332730905",
+        "residence": "Cadoneghe",
+        "name": "Giammarco",
+        "surname": "Zuin",
+        "birthYear": "1994",
+        "shirtNb": "17"
       }
     },
-    "__teamName": "WHISTLE",
     "__collections__": {}
   },
   "gioalba94@gmail.com": {
     "__teamName": "Duri a morire",
     "_restDay": "Venerdi",
     "players": {
-      "rywPIiGf7": {
-        "name": "Giovanni ",
-        "surname": "Lanaro",
-        "birthYear": "03051995",
-        "shirtNb": "7",
-        "id": "rywPIiGf7",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3404282266",
-        "residence": "Via g.mameli 75a albignasego"
-      },
-      "Sy9jLjGzQ": {
-        "name": "Giacomo",
-        "surname": "Gumiero",
-        "birthYear": "10111997",
-        "shirtNb": "8",
-        "id": "Sy9jLjGzQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3498857587",
-        "residence": "Via antonio ferrero 55 pontevigodarzere"
-      },
-      "S1aJUjffm": {
-        "name": "Daniele",
-        "surname": "Battisti ",
-        "birthYear": "17061998",
-        "shirtNb": "11",
-        "id": "S1aJUjffm",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3343882615",
-        "residence": "Via mazzini 5 albignasego"
-      },
       "r1xcSoMG7": {
+        "residence": "Via pola1a masera di padova ",
         "name": "Francesco ",
         "surname": "Bassan",
         "birthYear": "22061998",
@@ -1370,113 +1283,102 @@
         "id": "r1xcSoMG7",
         "captain": false,
         "goalkeeper": true,
-        "phoneNb": "3489888591",
-        "residence": "Via pola1a masera di padova "
+        "phoneNb": "3489888591"
       },
       "ByfJDiMzX": {
+        "goalkeeper": false,
+        "phoneNb": "3491190361",
+        "residence": "Via g.mameli 75a albignasego",
         "name": "Leonardo ",
         "surname": "Lanaro",
         "birthYear": "11081998",
         "shirtNb": "3",
         "id": "ByfJDiMzX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3491190361",
-        "residence": "Via g.mameli 75a albignasego"
+        "captain": false
       },
       "H10QrjzMX": {
-        "id": "H10QrjzMX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3409258852",
         "residence": "Via enrico mattei 45 dolo",
         "name": "Luca",
         "surname": "Poletto",
         "birthYear": "25021993",
-        "shirtNb": "5"
+        "shirtNb": "5",
+        "id": "H10QrjzMX",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3409258852"
       },
       "HyumUozG7": {
+        "goalkeeper": false,
+        "phoneNb": "3803056935",
+        "residence": "Vicolo martiri della liberta 26 vigonza",
         "name": "Giorgio ",
         "surname": "Nicotra",
         "birthYear": "28041994",
         "shirtNb": "10",
         "id": "HyumUozG7",
-        "captain": true,
+        "captain": true
+      },
+      "rywPIiGf7": {
         "goalkeeper": false,
-        "phoneNb": "3803056935",
-        "residence": "Vicolo martiri della liberta 26 vigonza"
+        "phoneNb": "3404282266",
+        "residence": "Via g.mameli 75a albignasego",
+        "name": "Giovanni ",
+        "surname": "Lanaro",
+        "birthYear": "03051995",
+        "shirtNb": "7",
+        "id": "rywPIiGf7",
+        "captain": false
+      },
+      "Sy9jLjGzQ": {
+        "goalkeeper": false,
+        "phoneNb": "3498857587",
+        "residence": "Via antonio ferrero 55 pontevigodarzere",
+        "name": "Giacomo",
+        "surname": "Gumiero",
+        "birthYear": "10111997",
+        "shirtNb": "8",
+        "id": "Sy9jLjGzQ",
+        "captain": false
+      },
+      "S1aJUjffm": {
+        "goalkeeper": false,
+        "phoneNb": "3343882615",
+        "residence": "Via mazzini 5 albignasego",
+        "name": "Daniele",
+        "surname": "Battisti ",
+        "birthYear": "17061998",
+        "shirtNb": "11",
+        "id": "S1aJUjffm",
+        "captain": false
       }
     },
     "__collections__": {}
   },
   "giorgiomessi8822@gmail.com": {
+    "__teamName": "Kana Jambe",
     "_restDay": "10/07/18",
     "players": {
-      "HkDsaZSMQ": {
-        "goalkeeper": false,
-        "phoneNb": "3351559319",
-        "residence": "Ponte di Brenta ",
-        "name": "Robert",
-        "surname": "Barizza",
-        "birthYear": "2000",
-        "shirtNb": "3",
-        "id": "HkDsaZSMQ",
-        "captain": false
-      },
-      "rkPrCbBMm": {
-        "residence": "Borgoricco",
-        "name": "George Daniel",
-        "surname": "Grigoras ",
-        "birthYear": "1997",
-        "shirtNb": "7",
-        "id": "rkPrCbBMm",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3284084364"
-      },
-      "HJAK1MBGX": {
-        "id": "HJAK1MBGX",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "3533780536",
-        "residence": "Borgoricco",
-        "name": "Cosmin",
-        "surname": "Codreanu ",
-        "birthYear": "1997",
-        "shirtNb": "1"
-      },
-      "SkjgCWHMQ": {
-        "residence": "Cadoneghe ",
-        "name": "Yassin",
-        "surname": "Staifa ",
-        "birthYear": "2001",
-        "shirtNb": "8",
-        "id": "SkjgCWHMQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3890565251"
-      },
       "r1eZ2bHGX": {
-        "id": "r1eZ2bHGX",
-        "captain": true,
-        "goalkeeper": false,
-        "phoneNb": "3482783682",
         "residence": "Cadoneghe",
         "name": "George",
         "surname": "Roman",
         "birthYear": "1998",
-        "shirtNb": "11"
+        "shirtNb": "11",
+        "id": "r1eZ2bHGX",
+        "captain": true,
+        "goalkeeper": false,
+        "phoneNb": "3482783682"
       },
       "Sy1U1zBGX": {
+        "id": "Sy1U1zBGX",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3472779266",
         "residence": "Arcella",
         "name": "Tommaso",
         "surname": "Sato",
         "birthYear": "1999",
-        "shirtNb": "17",
-        "id": "Sy1U1zBGX",
-        "captain": false
+        "shirtNb": "17"
       },
       "S1dIT-SMm": {
         "goalkeeper": false,
@@ -1490,78 +1392,99 @@
         "captain": false
       },
       "S18CabrzQ": {
+        "id": "S18CabrzQ",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3274660980",
         "residence": "Cadoneghe ",
         "name": "Valentin",
         "surname": "Pricop",
         "birthYear": "2001",
-        "shirtNb": "10",
-        "id": "S18CabrzQ",
-        "captain": false
+        "shirtNb": "10"
+      },
+      "HkDsaZSMQ": {
+        "id": "HkDsaZSMQ",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3351559319",
+        "residence": "Ponte di Brenta ",
+        "name": "Robert",
+        "surname": "Barizza",
+        "birthYear": "2000",
+        "shirtNb": "3"
+      },
+      "BJn8tdpf7": {
+        "id": "BJn8tdpf7",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "+393420920877",
+        "residence": "Cadoneghe ",
+        "name": "Giovanni",
+        "surname": "Nalesso",
+        "birthYear": "90",
+        "shirtNb": "7"
+      },
+      "SkjgCWHMQ": {
+        "residence": "Cadoneghe ",
+        "name": "Yassin",
+        "surname": "Staifa ",
+        "birthYear": "2001",
+        "shirtNb": "8",
+        "id": "SkjgCWHMQ",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3890565251"
       }
     },
-    "__teamName": "Kana Jambe",
     "__collections__": {}
   },
   "giulio8@hotmail.it": {
     "__teamName": "Tassinari",
     "_restDay": "Mercoledì",
     "players": {
-      "S1BSzgafQ": {
-        "residence": "Cadoneghe",
-        "name": "Marco",
-        "surname": "Bonello",
-        "birthYear": "1988",
-        "shirtNb": "11",
-        "id": "S1BSzgafQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": ""
-      },
       "HymzzxazQ": {
-        "id": "HymzzxazQ",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "",
         "residence": "Padova",
         "name": "Tommaso",
         "surname": "Minoglio",
         "birthYear": "1995",
-        "shirtNb": "8"
+        "shirtNb": "8",
+        "id": "HymzzxazQ",
+        "captain": false
       },
       "ryV8GgafX": {
+        "id": "ryV8GgafX",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "",
         "residence": "Cadoneghe",
         "name": "Matteo",
         "surname": "Nalesso",
         "birthYear": "1993",
-        "shirtNb": "16",
-        "id": "ryV8GgafX",
-        "captain": false
+        "shirtNb": "16"
       },
       "rkBvMgafX": {
+        "id": "rkBvMgafX",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "",
         "residence": "Cadoneghe",
         "name": "Vladimir",
         "surname": "Rusu",
         "birthYear": "1990",
-        "shirtNb": "9",
-        "id": "rkBvMgafX",
-        "captain": false
+        "shirtNb": "9"
       },
       "SJUXzgpzQ": {
+        "id": "SJUXzgpzQ",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "",
         "residence": "Cadoneghe",
         "name": "Andrea",
         "surname": "Zanni",
         "birthYear": "1992",
-        "shirtNb": "7",
-        "id": "SJUXzgpzQ",
-        "captain": false
+        "shirtNb": "7"
       },
       "Hy11zxpMm": {
         "goalkeeper": false,
@@ -1595,45 +1518,68 @@
         "shirtNb": "12",
         "id": "Sytlfg6zX",
         "captain": false
+      },
+      "S1BSzgafQ": {
+        "goalkeeper": false,
+        "phoneNb": "",
+        "residence": "Cadoneghe",
+        "name": "Marco",
+        "surname": "Bonello",
+        "birthYear": "1988",
+        "shirtNb": "11",
+        "id": "S1BSzgafQ",
+        "captain": false
       }
     },
     "__collections__": {}
   },
   "klaus.008@icloud.com": {
+    "__teamName": "Scarsenal ",
     "_restDay": "Il 10 perchè 3/4 giocatori sono impegnati.",
     "players": {
+      "H1PZ3GPx7": {
+        "goalkeeper": false,
+        "phoneNb": "+393663482561",
+        "residence": "Mestrino",
+        "name": "Adriatik ",
+        "surname": "Krasniqi ",
+        "birthYear": "1999",
+        "shirtNb": "21",
+        "id": "H1PZ3GPx7",
+        "captain": false
+      },
       "SJtDnMDgX": {
+        "id": "SJtDnMDgX",
+        "captain": false,
+        "goalkeeper": true,
+        "phoneNb": "+393397256886",
         "residence": "Saonara ",
         "name": "Thomas",
         "surname": "Stefani",
         "birthYear": "2000",
-        "shirtNb": "1",
-        "id": "SJtDnMDgX",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "+393397256886"
+        "shirtNb": "1"
       },
       "ByySC0PlQ": {
+        "id": "ByySC0PlQ",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "+393395614147",
         "residence": "Vigonza",
         "name": "Simone",
         "surname": "Sensi",
         "birthYear": "2000",
-        "shirtNb": "4",
-        "id": "ByySC0PlQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "+393395614147"
+        "shirtNb": "4"
       },
       "H1iQ9ocMm": {
+        "id": "H1iQ9ocMm",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3454908596",
         "residence": "Peraga",
         "name": "Marco ",
         "surname": "Trevisan",
         "birthYear": "2000",
-        "shirtNb": "14",
-        "id": "H1iQ9ocMm",
-        "captain": false
+        "shirtNb": "14"
       },
       "S18iMi5fm": {
         "residence": "Cadoneghe",
@@ -1658,88 +1604,65 @@
         "shirtNb": "99"
       },
       "r14-6MPeX": {
-        "id": "r14-6MPeX",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "+393456663908",
         "residence": "Saccolongo ",
         "name": "Leonardo ",
         "surname": "Visentin",
         "birthYear": "2000",
-        "shirtNb": "2"
+        "shirtNb": "2",
+        "id": "r14-6MPeX",
+        "captain": false
       },
       "S1RchzDgX": {
-        "goalkeeper": false,
-        "phoneNb": "+393297044405",
         "residence": "Cadoneghe ",
         "name": "Martino",
         "surname": "Alimadhi",
         "birthYear": "2000",
         "shirtNb": "3",
         "id": "S1RchzDgX",
-        "captain": false
-      },
-      "H1PZ3GPx7": {
+        "captain": false,
         "goalkeeper": false,
-        "phoneNb": "+393663482561",
-        "residence": "Mestrino",
-        "name": "Adriatik ",
-        "surname": "Krasniqi ",
-        "birthYear": "1999",
-        "shirtNb": "21",
-        "id": "H1PZ3GPx7",
-        "captain": false
+        "phoneNb": "+393297044405"
       }
     },
-    "__teamName": "Scarsenal ",
     "__collections__": {}
   },
   "lorenzobosello@gmail.com": {
     "_restDay": "Non ci sono",
     "players": {
-      "rJ2h2b6Zm": {
-        "goalkeeper": false,
-        "phoneNb": "3450687831",
-        "residence": "Campodarsego ",
-        "name": "Leonardo ",
-        "surname": "Rizzolo",
-        "birthYear": "1999",
-        "shirtNb": "9",
-        "id": "rJ2h2b6Zm",
-        "captain": false
-      },
       "BJeFhLba-Q": {
-        "name": "Lorenzo ",
-        "surname": "Bosello ",
-        "birthYear": "1997",
-        "shirtNb": "27",
         "id": "BJeFhLba-Q",
         "captain": true,
         "goalkeeper": false,
         "phoneNb": "3347794507",
-        "residence": "Campodarsego "
+        "residence": "Campodarsego ",
+        "name": "Lorenzo ",
+        "surname": "Bosello ",
+        "birthYear": "1997",
+        "shirtNb": "27"
       },
       "HyA0AJ3MQ": {
+        "id": "HyA0AJ3MQ",
+        "captain": false,
         "goalkeeper": true,
         "phoneNb": "‭388 3654218‬",
         "residence": "Campodarsego",
         "name": "Leonardo ",
         "surname": "Calzavara ",
         "birthYear": "2000",
-        "shirtNb": "1",
-        "id": "HyA0AJ3MQ",
-        "captain": false
+        "shirtNb": "1"
       },
       "ryT-dZpbX": {
-        "goalkeeper": false,
-        "phoneNb": "3466468608",
         "residence": "Campodarsego ",
         "name": "Alex",
         "surname": "Demo",
         "birthYear": "1997",
         "shirtNb": "6",
         "id": "ryT-dZpbX",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3466468608"
       },
       "H1BGAbaWX": {
         "goalkeeper": false,
@@ -1753,37 +1676,48 @@
         "captain": false
       },
       "H1pNOZTWQ": {
+        "goalkeeper": false,
+        "phoneNb": "3313378533",
+        "residence": "Campodarsego ",
         "name": "Filippo",
         "surname": "Bonetto",
         "birthYear": "1997",
         "shirtNb": "21",
         "id": "H1pNOZTWQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3313378533",
-        "residence": "Campodarsego "
+        "captain": false
       },
       "Sy5tOWpZX": {
+        "id": "Sy5tOWpZX",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3401216608",
         "residence": "Vigonza",
         "name": "Omar",
         "surname": "Hamrouni",
         "birthYear": "1997",
-        "shirtNb": "8",
-        "id": "Sy5tOWpZX",
-        "captain": false
+        "shirtNb": "8"
       },
       "Hk0au-6bQ": {
-        "id": "Hk0au-6bQ",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3334138350",
         "residence": "Campodarsego",
         "name": "Giacomo",
         "surname": "Mason",
         "birthYear": "1997",
-        "shirtNb": "5"
+        "shirtNb": "5",
+        "id": "Hk0au-6bQ",
+        "captain": false
+      },
+      "rJ2h2b6Zm": {
+        "goalkeeper": false,
+        "phoneNb": "3450687831",
+        "residence": "Campodarsego ",
+        "name": "Leonardo ",
+        "surname": "Rizzolo",
+        "birthYear": "1999",
+        "shirtNb": "9",
+        "id": "rJ2h2b6Zm",
+        "captain": false
       }
     },
     "__teamName": "Spirito Veneto",
@@ -1816,37 +1750,37 @@
         "captain": false
       },
       "r1FaZbwl7": {
-        "id": "r1FaZbwl7",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3898443725",
         "residence": "padova",
         "name": "cojan ",
         "surname": "claudiu",
         "birthYear": "1992",
-        "shirtNb": "21"
+        "shirtNb": "21",
+        "id": "r1FaZbwl7",
+        "captain": false
       },
       "HJHil-Dl7": {
+        "id": "HJHil-Dl7",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3464148707",
         "residence": "padova",
         "name": "davide",
         "surname": "varotto",
         "birthYear": "1998",
-        "shirtNb": "17",
-        "id": "HJHil-Dl7",
-        "captain": false
+        "shirtNb": "17"
       },
       "r1nR0lvxm": {
-        "id": "r1nR0lvxm",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3401638762",
         "residence": "arcella",
         "name": "nicolò ",
         "surname": "pasqui",
         "birthYear": "1993",
-        "shirtNb": "14"
+        "shirtNb": "14",
+        "id": "r1nR0lvxm",
+        "captain": false
       },
       "S1icRgDgm": {
         "id": "S1icRgDgm",
@@ -1860,76 +1794,53 @@
         "shirtNb": "18"
       },
       "BySAy-Px7": {
-        "goalkeeper": false,
-        "phoneNb": "3663911407",
         "residence": "padova",
         "name": "marco",
         "surname": "varotto",
         "birthYear": "1998",
         "shirtNb": "13",
         "id": "BySAy-Px7",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3663911407"
       },
       "rJxMzbPxQ": {
+        "goalkeeper": false,
+        "phoneNb": "3333223322",
         "residence": "padova",
         "name": "nicolò",
         "surname": "lincetto",
         "birthYear": "1990",
         "shirtNb": "5",
         "id": "rJxMzbPxQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3333223322"
+        "captain": false
       },
       "HkO80ePlX": {
+        "goalkeeper": true,
+        "phoneNb": "3474360233",
         "residence": "cadoneghe",
         "name": "luca",
         "surname": "de lazzari",
         "birthYear": "1992",
         "shirtNb": "1",
         "id": "HkO80ePlX",
-        "captain": true,
-        "goalkeeper": true,
-        "phoneNb": "3474360233"
+        "captain": true
       }
     },
     "__collections__": {}
   },
   "lucenti91@gmail.com": {
-    "__teamName": "Sbronzi di Riace",
     "_restDay": "Mercoledi",
     "players": {
-      "SJvlEwrzQ": {
-        "id": "SJvlEwrzQ",
-        "captain": false,
+      "SkMaqBaMQ": {
         "goalkeeper": false,
-        "phoneNb": "3494121074",
+        "phoneNb": "3402990121",
         "residence": "Padova",
-        "name": "Leonardo",
-        "surname": "Lincetti",
-        "birthYear": "1991",
-        "shirtNb": "22"
-      },
-      "SyA3vwBMm": {
-        "goalkeeper": true,
-        "phoneNb": "3498926388",
-        "residence": "Padova",
-        "name": "Carlo",
-        "surname": "Garofolin",
-        "birthYear": "1993",
-        "shirtNb": "1",
-        "id": "SyA3vwBMm",
-        "captain": false
-      },
-      "HkG7SPSMm": {
-        "goalkeeper": false,
-        "phoneNb": "3408786285",
-        "residence": "Padova",
-        "name": "Francesco",
-        "surname": "Michelon",
+        "name": "Enrico",
+        "surname": "Zanetti",
         "birthYear": "1992",
-        "shirtNb": "92",
-        "id": "HkG7SPSMm",
+        "shirtNb": "5",
+        "id": "SkMaqBaMQ",
         "captain": false
       },
       "rkvlrPHM7": {
@@ -1944,15 +1855,15 @@
         "captain": false
       },
       "Hkh8wvrGX": {
-        "id": "Hkh8wvrGX",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3463971963",
         "residence": "Padova",
         "name": "Veaceslav",
         "surname": "Burghelea",
         "birthYear": "1991",
-        "shirtNb": "23"
+        "shirtNb": "23",
+        "id": "Hkh8wvrGX",
+        "captain": false
       },
       "rygyIwBG7": {
         "goalkeeper": false,
@@ -1965,122 +1876,133 @@
         "id": "rygyIwBG7",
         "captain": true
       },
-      "H1fjrwrGm": {
-        "id": "H1fjrwrGm",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3402990121",
-        "residence": "Padova",
-        "name": "Enrico",
-        "surname": "Zanetti",
-        "birthYear": "1992",
-        "shirtNb": "19"
-      },
       "HkRUHvSMX": {
+        "goalkeeper": false,
+        "phoneNb": "3207778134",
         "residence": "Padova",
         "name": "Davide",
         "surname": "Vidale",
         "birthYear": "1991",
         "shirtNb": "9",
         "id": "HkRUHvSMX",
+        "captain": false
+      },
+      "SJvlEwrzQ": {
+        "residence": "Padova",
+        "name": "Leonardo",
+        "surname": "Lincetti",
+        "birthYear": "1991",
+        "shirtNb": "22",
+        "id": "SJvlEwrzQ",
         "captain": false,
         "goalkeeper": false,
-        "phoneNb": "3207778134"
+        "phoneNb": "3494121074"
       },
-      "rknqLvSM7": {
+      "SyA3vwBMm": {
+        "goalkeeper": true,
+        "phoneNb": "3498926388",
+        "residence": "Padova",
+        "name": "Carlo",
+        "surname": "Garofolin",
+        "birthYear": "1993",
+        "shirtNb": "1",
+        "id": "SyA3vwBMm",
+        "captain": false
+      },
+      "B1sG9r6MX": {
         "goalkeeper": false,
         "phoneNb": "3204090143",
         "residence": "Padova",
-        "name": "Alessandro",
+        "name": "Alessandro ",
         "surname": "Malucelli",
         "birthYear": "1991",
-        "shirtNb": "32",
-        "id": "rknqLvSM7",
+        "shirtNb": "8",
+        "id": "B1sG9r6MX",
         "captain": false
+      },
+      "HkG7SPSMm": {
+        "id": "HkG7SPSMm",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3408786285",
+        "residence": "Padova",
+        "name": "Francesco",
+        "surname": "Michelon",
+        "birthYear": "1992",
+        "shirtNb": "92"
       }
     },
+    "__teamName": "Sbronzi di Riace",
     "__collections__": {}
   },
   "massiffo94@gmail.com": {
-    "__teamName": "Cinghialotti F.C.",
     "_restDay": "Mercoledì 11",
     "players": {
-      "Sk774j8zX": {
-        "goalkeeper": true,
-        "phoneNb": "3343763134",
-        "residence": "Padova",
-        "name": "Edoardo",
-        "surname": "Comis",
-        "birthYear": "1995",
-        "shirtNb": "6",
-        "id": "Sk774j8zX",
-        "captain": false
-      },
-      "Bk187OLz7": {
-        "name": "Andrea",
-        "surname": "Lovo",
-        "birthYear": "1994",
-        "shirtNb": "3",
-        "id": "Bk187OLz7",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3920178087",
-        "residence": "Curtarolo"
-      },
       "Hy6kquUMQ": {
+        "goalkeeper": false,
+        "phoneNb": "3401921374",
+        "residence": "Vigonza",
         "name": "Geremia",
         "surname": "Boschello",
         "birthYear": "1995",
         "shirtNb": "7",
         "id": "Hy6kquUMQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3401921374",
-        "residence": "Vigonza"
+        "captain": false
       },
       "r1_NmVLfX": {
+        "goalkeeper": false,
+        "phoneNb": "3468664565",
+        "residence": "Campodarsego",
         "name": "Gianmarco",
         "surname": "Saccon",
         "birthYear": "1995",
         "shirtNb": "8",
         "id": "r1_NmVLfX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3468664565",
-        "residence": "Campodarsego"
+        "captain": false
       },
       "H1fFNjUGX": {
+        "goalkeeper": true,
+        "phoneNb": "3478181901",
+        "residence": "Curtarolo",
         "name": "Simone",
         "surname": "Gentilin",
         "birthYear": "1990",
         "shirtNb": "1",
         "id": "H1fFNjUGX",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "3478181901",
-        "residence": "Curtarolo"
+        "captain": false
       },
       "r1bmIN8zX": {
-        "goalkeeper": false,
-        "phoneNb": "3473613010",
         "residence": "Campodarsego",
         "name": "Davide",
         "surname": "Pagin",
         "birthYear": "1995",
         "shirtNb": "10",
         "id": "r1bmIN8zX",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3473613010"
       },
       "rybbXN8zX": {
+        "id": "rybbXN8zX",
+        "captain": true,
         "goalkeeper": false,
         "phoneNb": "3926391453",
         "residence": "Cadoneghe",
         "name": "Massimiliano",
         "surname": "Tonietto",
         "birthYear": "1994",
-        "shirtNb": "13",
-        "id": "rybbXN8zX",
-        "captain": true
+        "shirtNb": "13"
+      },
+      "HyI3FSTM7": {
+        "id": "HyI3FSTM7",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3482568466",
+        "residence": "Vigodarzere",
+        "name": "Fabio",
+        "surname": "Ricco",
+        "birthYear": "1995",
+        "shirtNb": "9"
       },
       "HJNkSs8f7": {
         "goalkeeper": false,
@@ -2092,90 +2014,36 @@
         "shirtNb": "11",
         "id": "HJNkSs8f7",
         "captain": false
+      },
+      "Sk774j8zX": {
+        "id": "Sk774j8zX",
+        "captain": false,
+        "goalkeeper": true,
+        "phoneNb": "3343763134",
+        "residence": "Padova",
+        "name": "Edoardo",
+        "surname": "Comis",
+        "birthYear": "1995",
+        "shirtNb": "6"
+      },
+      "Bk187OLz7": {
+        "goalkeeper": false,
+        "phoneNb": "3920178087",
+        "residence": "Curtarolo",
+        "name": "Andrea",
+        "surname": "Lovo",
+        "birthYear": "1994",
+        "shirtNb": "3",
+        "id": "Bk187OLz7",
+        "captain": false
       }
     },
+    "__teamName": "Cinghialotti F.C.",
     "__collections__": {}
   },
   "matt_masi@hotmail.it": {
     "_restDay": "Lunedì. Se possibile il giovedì (se ci arriviamo) dovreste farci la cortesia di meterzi più tardi possibile visto che siamo senza 4 giocatori causa presentazione squadra. Ps.: la figa è strepitosa 😘",
     "players": {
-      "r1bdMu0-m": {
-        "id": "r1bdMu0-m",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3347442249",
-        "residence": "Via selvatico 7 PD ",
-        "name": "Jacopo",
-        "surname": "Vecchi",
-        "birthYear": "1988",
-        "shirtNb": "11"
-      },
-      "ryMWLi0-m": {
-        "name": "Alberto ",
-        "surname": "Buson",
-        "birthYear": "1996",
-        "shirtNb": "6",
-        "id": "ryMWLi0-m",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3473455862",
-        "residence": "Via Russia 26 san Giorgio delle pertiche "
-      },
-      "r1HYO9Jzm": {
-        "name": "Giulio ",
-        "surname": "Pittaro",
-        "birthYear": "1996",
-        "shirtNb": "10",
-        "id": "r1HYO9Jzm",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3420023334",
-        "residence": "Via Morosini 5 saonara"
-      },
-      "rJ8FpOC-X": {
-        "name": "Pietro ",
-        "surname": "Michelotto",
-        "birthYear": "1992",
-        "shirtNb": "8",
-        "id": "rJ8FpOC-X",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3480537818",
-        "residence": "Via Tiziano aspetti 139 PD"
-      },
-      "HytrROAZQ": {
-        "goalkeeper": false,
-        "phoneNb": "3338245335",
-        "residence": "Via franceschina 5 cadoneghe",
-        "name": "Alberto",
-        "surname": "Galliot",
-        "birthYear": "1996",
-        "shirtNb": "3",
-        "id": "HytrROAZQ",
-        "captain": false
-      },
-      "By1ZMOC-7": {
-        "name": "Marco",
-        "surname": "Rossignoli",
-        "birthYear": "1996",
-        "shirtNb": "2",
-        "id": "By1ZMOC-7",
-        "captain": true,
-        "goalkeeper": false,
-        "phoneNb": "3464129618",
-        "residence": "Via Pellizzo 39 PD "
-      },
-      "BJqVGd0ZQ": {
-        "goalkeeper": false,
-        "phoneNb": "3336473540",
-        "residence": "Via Manin 67 Vigodarzere PD ",
-        "name": "Mattia",
-        "surname": "Masiero",
-        "birthYear": "1987",
-        "shirtNb": "5",
-        "id": "BJqVGd0ZQ",
-        "captain": false
-      },
       "SJ72Mu0Z7": {
         "goalkeeper": false,
         "phoneNb": "3460194454",
@@ -2186,15 +2054,105 @@
         "shirtNb": "9",
         "id": "SJ72Mu0Z7",
         "captain": false
+      },
+      "r1bdMu0-m": {
+        "residence": "Via selvatico 7 PD ",
+        "name": "Jacopo",
+        "surname": "Vecchi",
+        "birthYear": "1988",
+        "shirtNb": "11",
+        "id": "r1bdMu0-m",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3347442249"
+      },
+      "ryMWLi0-m": {
+        "goalkeeper": false,
+        "phoneNb": "3473455862",
+        "residence": "Via Russia 26 san Giorgio delle pertiche ",
+        "name": "Alberto ",
+        "surname": "Buson",
+        "birthYear": "1996",
+        "shirtNb": "6",
+        "id": "ryMWLi0-m",
+        "captain": false
+      },
+      "r1HYO9Jzm": {
+        "goalkeeper": false,
+        "phoneNb": "3420023334",
+        "residence": "Via Morosini 5 saonara",
+        "name": "Giulio ",
+        "surname": "Pittaro",
+        "birthYear": "1996",
+        "shirtNb": "10",
+        "id": "r1HYO9Jzm",
+        "captain": false
+      },
+      "rJ8FpOC-X": {
+        "residence": "Via Tiziano aspetti 139 PD",
+        "name": "Pietro ",
+        "surname": "Michelotto",
+        "birthYear": "1992",
+        "shirtNb": "8",
+        "id": "rJ8FpOC-X",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3480537818"
+      },
+      "HytrROAZQ": {
+        "residence": "Via franceschina 5 cadoneghe",
+        "name": "Alberto",
+        "surname": "Galliot",
+        "birthYear": "1996",
+        "shirtNb": "3",
+        "id": "HytrROAZQ",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3338245335"
+      },
+      "By1ZMOC-7": {
+        "goalkeeper": false,
+        "phoneNb": "3464129618",
+        "residence": "Via Pellizzo 39 PD ",
+        "name": "Marco",
+        "surname": "Rossignoli",
+        "birthYear": "1996",
+        "shirtNb": "2",
+        "id": "By1ZMOC-7",
+        "captain": true
+      },
+      "BJqVGd0ZQ": {
+        "residence": "Via Manin 67 Vigodarzere PD ",
+        "name": "Mattia",
+        "surname": "Masiero",
+        "birthYear": "1987",
+        "shirtNb": "5",
+        "id": "BJqVGd0ZQ",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3336473540"
       }
     },
     "__teamName": "Viulenza ",
     "__collections__": {}
   },
   "matteovolpato.mv.mv.mv@gmail.com": {
+    "__teamName": "Divano Kiev",
     "_restDay": "Lunedì ",
     "players": {
+      "By_wyYpf7": {
+        "id": "By_wyYpf7",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "348 476 6340",
+        "residence": "Zeminiana",
+        "name": "Alex",
+        "surname": "Bertolini",
+        "birthYear": "2001",
+        "shirtNb": "9"
+      },
       "BylrPI5bm": {
+        "residence": "Trebaseleghe",
         "name": "Pietro",
         "surname": "Piazza",
         "birthYear": "2001",
@@ -2202,8 +2160,7 @@
         "id": "BylrPI5bm",
         "captain": false,
         "goalkeeper": false,
-        "phoneNb": "+39 348 980 3549",
-        "residence": "Trebaseleghe"
+        "phoneNb": "+39 348 980 3549"
       },
       "ByBaHL9b7": {
         "goalkeeper": false,
@@ -2216,16 +2173,27 @@
         "id": "ByBaHL9b7",
         "captain": true
       },
-      "rkb7U89ZX": {
-        "id": "rkb7U89ZX",
+      "HyqRibAG7": {
+        "id": "HyqRibAG7",
         "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "+39 333 726 7463",
+        "goalkeeper": true,
+        "phoneNb": "+39 345 045 3290",
+        "residence": "Noventana",
+        "name": "Gianmarco ",
+        "surname": "Raccagni",
+        "birthYear": "1999",
+        "shirtNb": "1"
+      },
+      "rkb7U89ZX": {
         "residence": "Campodarsego",
         "name": "Davide",
         "surname": "Raimondi",
         "birthYear": "2001",
-        "shirtNb": "8"
+        "shirtNb": "8",
+        "id": "rkb7U89ZX",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "+39 333 726 7463"
       },
       "HkKwmU9W7": {
         "goalkeeper": false,
@@ -2238,40 +2206,19 @@
         "id": "HkKwmU9W7",
         "captain": false
       },
-      "SkROrIqZm": {
-        "name": "Michele",
-        "surname": "Voltan",
-        "birthYear": "2001",
-        "shirtNb": "1",
-        "id": "SkROrIqZm",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "+39 345 379 9411",
-        "residence": "Legnaro"
-      },
       "ryMpwI9WQ": {
-        "goalkeeper": false,
-        "phoneNb": "+39 347 140 2381",
         "residence": "Salboro",
         "name": "Niccolò ",
         "surname": "Varotto",
         "birthYear": "2001",
         "shirtNb": "16",
         "id": "ryMpwI9WQ",
-        "captain": false
-      },
-      "HymS5GqfX": {
-        "id": "HymS5GqfX",
         "captain": false,
         "goalkeeper": false,
-        "phoneNb": "+39 346 959 7508",
-        "residence": "Legnaro",
-        "name": "Michele",
-        "surname": "Carraro",
-        "birthYear": "2001",
-        "shirtNb": "10"
+        "phoneNb": "+39 347 140 2381"
       },
       "H1kKPIqWX": {
+        "residence": "Pianiga",
         "name": "Giacomo",
         "surname": "Peruzzo",
         "birthYear": "1999",
@@ -2279,81 +2226,91 @@
         "id": "H1kKPIqWX",
         "captain": false,
         "goalkeeper": false,
-        "phoneNb": "+39 3319040093",
-        "residence": "Pianiga"
+        "phoneNb": "+39 3319040093"
       }
     },
-    "__teamName": "Divano Kiev",
     "__collections__": {}
   },
   "mattia.berton5@gmail.com": {
+    "__teamName": "EMME SPORT",
     "_restDay": "Martedì",
     "players": {
-      "Sytx522GX": {
-        "id": "Sytx522GX",
+      "BkoMZHAg7": {
+        "id": "BkoMZHAg7",
         "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "",
+        "residence": "Cadoneghe",
+        "name": "Francesco",
+        "surname": "Zanotto",
+        "birthYear": "1993",
+        "shirtNb": "18"
+      },
+      "Sytx522GX": {
         "goalkeeper": false,
         "phoneNb": "3468870466",
         "residence": "Padova",
         "name": "Luigi",
         "surname": "Allario",
         "birthYear": "1993",
-        "shirtNb": "3"
+        "shirtNb": "3",
+        "id": "Sytx522GX",
+        "captain": false
       },
       "HkY4erAem": {
-        "goalkeeper": true,
-        "phoneNb": "3489542340",
         "residence": "Cadoneghe",
         "name": "Mattia",
         "surname": "Berton",
         "birthYear": "1993",
         "shirtNb": "12",
         "id": "HkY4erAem",
-        "captain": true
+        "captain": true,
+        "goalkeeper": true,
+        "phoneNb": "3489542340"
       },
       "SJlzzSAxQ": {
+        "goalkeeper": false,
+        "phoneNb": "",
+        "residence": "Cadoneghe",
         "name": "Umberto",
         "surname": "Cassone",
         "birthYear": "1981",
         "shirtNb": "10",
         "id": "SJlzzSAxQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "",
-        "residence": "Cadoneghe"
+        "captain": false
       },
       "Bk_UUUAgm": {
+        "id": "Bk_UUUAgm",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "",
         "residence": "Vicenza",
         "name": "Luca ",
         "surname": "Fortunato",
         "birthYear": "1988",
-        "shirtNb": "4",
-        "id": "Bk_UUUAgm",
-        "captain": false
+        "shirtNb": "4"
       },
       "rJAvGSCeQ": {
-        "goalkeeper": false,
-        "phoneNb": "",
         "residence": "Cadoneghe",
         "name": "Vargiu",
         "surname": "Cristian",
         "birthYear": "1982",
         "shirtNb": "5",
         "id": "rJAvGSCeQ",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": ""
       },
       "r15jZHAxX": {
-        "id": "r15jZHAxX",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "",
         "residence": "Cadoneghe",
         "name": "Michele",
         "surname": "De Tommasi",
         "birthYear": "1993",
-        "shirtNb": "9"
+        "shirtNb": "9",
+        "id": "r15jZHAxX",
+        "captain": false
       },
       "SyNclHReQ": {
         "goalkeeper": false,
@@ -2365,20 +2322,8 @@
         "shirtNb": "2",
         "id": "SyNclHReQ",
         "captain": false
-      },
-      "BkoMZHAg7": {
-        "name": "Francesco",
-        "surname": "Zanotto",
-        "birthYear": "1993",
-        "shirtNb": "18",
-        "id": "BkoMZHAg7",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "",
-        "residence": "Cadoneghe"
       }
     },
-    "__teamName": "EMME SPORT",
     "__collections__": {}
   },
   "maurizio.rallo22@gmail.com": {
@@ -2398,36 +2343,14 @@
     "__collections__": {}
   },
   "multifalco@gmail.com": {
-    "__teamName": "Galacticos",
     "_restDay": "mercoledì",
     "players": {},
+    "__teamName": "Galacticos",
     "__collections__": {}
   },
   "nicola.fac@gmail.com": {
     "_restDay": "Martedì , preferibilmente iniziare a giocare dopo le 20:20 il lunedì e mercoledì ",
     "players": {
-      "H1-Nd1vZ7": {
-        "name": "Nicola",
-        "surname": "Faccon",
-        "birthYear": "1996",
-        "shirtNb": "6",
-        "id": "H1-Nd1vZ7",
-        "captain": true,
-        "goalkeeper": false,
-        "phoneNb": "3401184910",
-        "residence": "Padova"
-      },
-      "BkZ3cJYzX": {
-        "goalkeeper": false,
-        "phoneNb": "3401184910",
-        "residence": "Padova",
-        "name": "Mattia ",
-        "surname": "Pinton",
-        "birthYear": "1996",
-        "shirtNb": "3",
-        "id": "BkZ3cJYzX",
-        "captain": false
-      },
       "S1ehKEHMX": {
         "goalkeeper": false,
         "phoneNb": "3401184910",
@@ -2440,69 +2363,91 @@
         "captain": false
       },
       "SJujdyPZm": {
-        "goalkeeper": true,
-        "phoneNb": "",
         "residence": "Padova",
         "name": "Nicola",
         "surname": "Marrone",
         "birthYear": "1996",
         "shirtNb": "1",
         "id": "SJujdyPZm",
-        "captain": false
+        "captain": false,
+        "goalkeeper": true,
+        "phoneNb": ""
       },
       "S18YAKLZ7": {
+        "id": "S18YAKLZ7",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "",
         "residence": "Padova",
         "name": "Mattia ",
         "surname": "D'alessandri",
         "birthYear": "1995",
-        "shirtNb": "10",
-        "id": "S18YAKLZ7",
-        "captain": false
+        "shirtNb": "10"
       },
       "S1IvCtIZm": {
-        "id": "S1IvCtIZm",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "",
         "residence": "Padova",
         "name": "Eduard ",
         "surname": "Adam",
         "birthYear": "1997",
-        "shirtNb": "17"
+        "shirtNb": "17",
+        "id": "S1IvCtIZm",
+        "captain": false
       },
       "B1L5uyP-X": {
+        "goalkeeper": false,
+        "phoneNb": "",
+        "residence": "Padova",
         "name": "Luca",
         "surname": "Magnanini",
         "birthYear": "1996",
         "shirtNb": "16",
         "id": "B1L5uyP-X",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "",
-        "residence": "Padova"
+        "captain": false
       },
       "Sk0IdJP-Q": {
+        "goalkeeper": false,
+        "phoneNb": "3401184910",
+        "residence": "Padova",
         "name": "Giulio ",
         "surname": "Zecchinato",
         "birthYear": "1996",
         "shirtNb": "23",
         "id": "Sk0IdJP-Q",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3401184910",
-        "residence": "Padova"
+        "captain": false
       },
       "r1M1VT2Mm": {
+        "id": "r1M1VT2Mm",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3401184910",
         "residence": "Padova",
         "name": "Pietro ",
         "surname": "Menin",
         "birthYear": "1996",
-        "shirtNb": "96",
-        "id": "r1M1VT2Mm",
+        "shirtNb": "96"
+      },
+      "H1-Nd1vZ7": {
+        "residence": "Padova",
+        "name": "Nicola",
+        "surname": "Faccon",
+        "birthYear": "1996",
+        "shirtNb": "6",
+        "id": "H1-Nd1vZ7",
+        "captain": true,
+        "goalkeeper": false,
+        "phoneNb": "3401184910"
+      },
+      "BkZ3cJYzX": {
+        "goalkeeper": false,
+        "phoneNb": "3401184910",
+        "residence": "Padova",
+        "name": "Mattia ",
+        "surname": "Pinton",
+        "birthYear": "1996",
+        "shirtNb": "3",
+        "id": "BkZ3cJYzX",
         "captain": false
       }
     },
@@ -2510,40 +2455,30 @@
     "__collections__": {}
   },
   "omarafritas@outlook.it": {
+    "__teamName": "Paris Saint Degrado",
     "_restDay": "Martedì",
     "players": {
-      "H1n8AOaW7": {
-        "name": "Hamza",
-        "surname": "Ben Mohamed",
-        "birthYear": "1990",
-        "shirtNb": "11",
-        "id": "H1n8AOaW7",
-        "captain": false,
+      "S1Y-hSafQ": {
         "goalkeeper": false,
-        "phoneNb": "345 1428332‬",
-        "residence": "Rovigo"
-      },
-      "B12a0OpWX": {
-        "id": "B12a0OpWX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "346 8277769",
+        "phoneNb": "3493807482",
         "residence": "Padova",
-        "name": "Ali",
-        "surname": "Hatimi",
-        "birthYear": "1993",
-        "shirtNb": "93"
+        "name": "Zakaria",
+        "surname": "Nejm Eddine",
+        "birthYear": "1994",
+        "shirtNb": "10",
+        "id": "S1Y-hSafQ",
+        "captain": false
       },
       "BJUAiuTW7": {
+        "id": "BJUAiuTW7",
+        "captain": true,
         "goalkeeper": false,
         "phoneNb": "3284345525",
         "residence": "Padova",
         "name": "Omar",
         "surname": "Afritas",
         "birthYear": "1993",
-        "shirtNb": "6",
-        "id": "BJUAiuTW7",
-        "captain": true
+        "shirtNb": "6"
       },
       "H10MXnLzQ": {
         "goalkeeper": true,
@@ -2557,39 +2492,29 @@
         "captain": false
       },
       "By9GwoIf7": {
-        "id": "By9GwoIf7",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "‭389 4603748‬",
         "residence": "Padova",
         "name": "Mehdi",
         "surname": "Cherkaoui",
         "birthYear": "1999",
-        "shirtNb": "99"
+        "shirtNb": "99",
+        "id": "By9GwoIf7",
+        "captain": false
       },
       "rJknnOTWQ": {
+        "id": "rJknnOTWQ",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "337454547",
         "residence": "Padova",
         "name": "Anis",
         "surname": "Hamdi",
         "birthYear": "1995",
-        "shirtNb": "8",
-        "id": "rJknnOTWQ",
-        "captain": false
-      },
-      "rJAv2d6bX": {
-        "name": "Zakaria",
-        "surname": "Nejm Eddine",
-        "birthYear": "1994",
-        "shirtNb": "12",
-        "id": "rJAv2d6bX",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3493807482",
-        "residence": "Padova"
+        "shirtNb": "8"
       },
       "BJG69Op-7": {
+        "residence": "Borgo Chiese (TN)",
         "name": "Omar",
         "surname": "Chafouk",
         "birthYear": "1996",
@@ -2597,17 +2522,38 @@
         "id": "BJG69Op-7",
         "captain": true,
         "goalkeeper": false,
-        "phoneNb": "3451293686",
-        "residence": "Borgo Chiese (TN)"
+        "phoneNb": "3451293686"
+      },
+      "H1n8AOaW7": {
+        "id": "H1n8AOaW7",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "345 1428332‬",
+        "residence": "Rovigo",
+        "name": "Hamza",
+        "surname": "Ben Mohamed",
+        "birthYear": "1990",
+        "shirtNb": "11"
+      },
+      "B12a0OpWX": {
+        "goalkeeper": false,
+        "phoneNb": "346 8277769",
+        "residence": "Padova",
+        "name": "Ali",
+        "surname": "Hatimi",
+        "birthYear": "1993",
+        "shirtNb": "93",
+        "id": "B12a0OpWX",
+        "captain": false
       }
     },
-    "__teamName": "Paris Saint Degrado",
     "__collections__": {}
   },
   "omarbenzara.ob@gmail.com": {
     "_restDay": "Lunedì ",
     "players": {
       "B11HojLZm": {
+        "residence": "Vigonza",
         "name": "Omar",
         "surname": "Benzara",
         "birthYear": "1995",
@@ -2615,8 +2561,7 @@
         "id": "B11HojLZm",
         "captain": true,
         "goalkeeper": false,
-        "phoneNb": "‭345 3762254",
-        "residence": "Vigonza"
+        "phoneNb": "‭345 3762254"
       },
       "Skc4piI-Q": {
         "goalkeeper": false,
@@ -2641,26 +2586,26 @@
         "captain": false
       },
       "Syf_hiLbX": {
+        "id": "Syf_hiLbX",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "‭346 6396520‬",
         "residence": "Peraga",
         "name": "Fabio",
         "surname": "Angelon",
         "birthYear": "1998",
-        "shirtNb": "9",
-        "id": "Syf_hiLbX",
-        "captain": false
+        "shirtNb": "9"
       },
       "B1t5ijUW7": {
+        "goalkeeper": false,
+        "phoneNb": "‭342 0675225‬",
+        "residence": "Vigonza",
         "name": "Daniele",
         "surname": "Pasuto",
         "birthYear": "1999",
         "shirtNb": "3",
         "id": "B1t5ijUW7",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "‭342 0675225‬",
-        "residence": "Vigonza"
+        "captain": false
       },
       "Sy3IssLZm": {
         "goalkeeper": false,
@@ -2674,15 +2619,15 @@
         "captain": false
       },
       "rkYQ2jL-X": {
+        "id": "rkYQ2jL-X",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "‭345 4642981‬",
         "residence": "Ponte di Brenta",
         "name": "Tommaso",
         "surname": "Parmeggiani ",
         "birthYear": "1999",
-        "shirtNb": "49",
-        "id": "rkYQ2jL-X",
-        "captain": false
+        "shirtNb": "49"
       },
       "B1jPqsLWQ": {
         "goalkeeper": true,
@@ -2702,16 +2647,27 @@
   "quartiere2nord@hotmail.com": {
     "_restDay": "mercoledì",
     "players": {
-      "HygtJOUG7": {
-        "id": "HygtJOUG7",
+      "rJH3gdUMQ": {
+        "id": "rJH3gdUMQ",
         "captain": true,
+        "goalkeeper": true,
+        "phoneNb": "3454401598",
+        "residence": "Via Agraba 34",
+        "name": "Majed",
+        "surname": "Awuallah",
+        "birthYear": "1995",
+        "shirtNb": "9"
+      },
+      "HygtJOUG7": {
         "goalkeeper": true,
         "phoneNb": "3478583000",
         "residence": "Via Gemona 15",
         "name": "Pietro",
         "surname": "Laudati",
         "birthYear": "1993",
-        "shirtNb": "1"
+        "shirtNb": "1",
+        "id": "HygtJOUG7",
+        "captain": true
       },
       "SyPTkO8fQ": {
         "goalkeeper": false,
@@ -2725,26 +2681,26 @@
         "captain": false
       },
       "S1P7xOLfX": {
+        "id": "S1P7xOLfX",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3240966479",
         "residence": "Via Mortise 42",
         "name": "Antonio",
         "surname": "Giorgianni",
         "birthYear": "1993",
-        "shirtNb": "5",
-        "id": "S1P7xOLfX",
-        "captain": false
+        "shirtNb": "5"
       },
       "BJlux_IGm": {
-        "name": "Andrea",
-        "surname": "Maritan",
-        "birthYear": "1992",
-        "shirtNb": "3",
         "id": "BJlux_IGm",
         "captain": false,
         "goalkeeper": false,
         "phoneNb": "3494490881",
-        "residence": "Via Saetta 24"
+        "residence": "Via Saetta 24",
+        "name": "Andrea",
+        "surname": "Maritan",
+        "birthYear": "1992",
+        "shirtNb": "3"
       },
       "H1AWyOUzQ": {
         "goalkeeper": false,
@@ -2767,17 +2723,6 @@
         "shirtNb": "8",
         "id": "BJtJydUzQ",
         "captain": true
-      },
-      "rJH3gdUMQ": {
-        "goalkeeper": true,
-        "phoneNb": "3454401598",
-        "residence": "Via Agraba 34",
-        "name": "Majed",
-        "surname": "Awuallah",
-        "birthYear": "1995",
-        "shirtNb": "9",
-        "id": "rJH3gdUMQ",
-        "captain": true
       }
     },
     "__teamName": "Galacticos",
@@ -2798,15 +2743,15 @@
         "captain": false
       },
       "B1Tp1mLf7": {
+        "goalkeeper": false,
+        "phoneNb": "",
         "residence": "Padova",
         "name": "Davide",
         "surname": "Cappa",
         "birthYear": "1988",
         "shirtNb": "10",
         "id": "B1Tp1mLf7",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": ""
+        "captain": false
       },
       "H1fJbQUGX": {
         "goalkeeper": false,
@@ -2820,48 +2765,48 @@
         "captain": false
       },
       "SyyslmLzX": {
-        "goalkeeper": false,
-        "phoneNb": "",
         "residence": "Padova",
         "name": "Merveille",
         "surname": "Boungou",
         "birthYear": "1999",
         "shirtNb": "7",
         "id": "SyyslmLzX",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": ""
       },
       "Sy7pce3Mm": {
+        "id": "Sy7pce3Mm",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3475628134",
         "residence": "Padova",
         "name": "Federico",
         "surname": "Bertotti",
         "birthYear": "1987",
-        "shirtNb": "9",
-        "id": "Sy7pce3Mm",
-        "captain": false
+        "shirtNb": "9"
       },
       "BksLmfdMQ": {
-        "id": "BksLmfdMQ",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3475628134",
         "residence": "Padova",
         "name": "Adrian",
         "surname": "Chiriac",
         "birthYear": "1996",
-        "shirtNb": "11"
+        "shirtNb": "11",
+        "id": "BksLmfdMQ",
+        "captain": false
       },
       "rJTIyQLMm": {
+        "id": "rJTIyQLMm",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "+33623852591",
         "residence": "Parigi, Francia",
         "name": "Saverio",
         "surname": "Favaron",
         "birthYear": "1988",
-        "shirtNb": "4",
-        "id": "rJTIyQLMm",
-        "captain": false
+        "shirtNb": "4"
       },
       "rkH9JQIMm": {
         "goalkeeper": false,
@@ -2875,23 +2820,46 @@
         "captain": true
       },
       "rkm1eXIfQ": {
+        "goalkeeper": true,
+        "phoneNb": "",
         "residence": "Padova",
         "name": "Luca",
         "surname": "Marinello",
         "birthYear": "1991",
         "shirtNb": "1",
         "id": "rkm1eXIfQ",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": ""
+        "captain": false
       }
     },
     "__teamName": "Presocratici",
     "__collections__": {}
   },
   "toniettosimone@gmail.com": {
+    "__teamName": "Atletico Tonietto",
     "_restDay": "Mercoledì ",
     "players": {
+      "SJ026VdWm": {
+        "residence": "Cadoneghe",
+        "name": "Nicola ",
+        "surname": "Bison",
+        "birthYear": "1997",
+        "shirtNb": "22",
+        "id": "SJ026VdWm",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3484625707"
+      },
+      "Hy4zxBOZm": {
+        "residence": "Cadoneghe",
+        "name": "Edoardo ",
+        "surname": "Fiorin",
+        "birthYear": "1997",
+        "shirtNb": "11",
+        "id": "Hy4zxBOZm",
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3342562067"
+      },
       "HJnfJSu-Q": {
         "goalkeeper": false,
         "phoneNb": "3456270267",
@@ -2904,15 +2872,15 @@
         "captain": false
       },
       "ry1FaEdZ7": {
+        "id": "ry1FaEdZ7",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3461747510",
         "residence": "Cadoneghe",
         "name": "Alberto ",
         "surname": "Ometto",
         "birthYear": "1997",
-        "shirtNb": "15",
-        "id": "ry1FaEdZ7",
-        "captain": false
+        "shirtNb": "15"
       },
       "B1jb0NOZm": {
         "goalkeeper": false,
@@ -2926,77 +2894,66 @@
         "captain": false
       },
       "SyScgHuWm": {
-        "id": "SyScgHuWm",
-        "captain": false,
         "goalkeeper": true,
         "phoneNb": "3408575024",
         "residence": "Vigodarzere",
         "name": "Riccardo",
         "surname": "Giuliani",
         "birthYear": "1995",
-        "shirtNb": "1"
+        "shirtNb": "1",
+        "id": "SyScgHuWm",
+        "captain": false
       },
       "BJqMa4u-7": {
+        "id": "BJqMa4u-7",
+        "captain": true,
         "goalkeeper": false,
         "phoneNb": "3496362989",
         "residence": "Cadoneghe",
         "name": "Simone ",
         "surname": "Tonietto",
         "birthYear": "1997",
-        "shirtNb": "10",
-        "id": "BJqMa4u-7",
-        "captain": true
-      },
-      "SJ026VdWm": {
-        "goalkeeper": false,
-        "phoneNb": "3484625707",
-        "residence": "Cadoneghe",
-        "name": "Nicola ",
-        "surname": "Bison",
-        "birthYear": "1997",
-        "shirtNb": "22",
-        "id": "SJ026VdWm",
-        "captain": false
-      },
-      "Hy4zxBOZm": {
-        "name": "Edoardo ",
-        "surname": "Fiorin",
-        "birthYear": "1997",
-        "shirtNb": "11",
-        "id": "Hy4zxBOZm",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3342562067",
-        "residence": "Cadoneghe"
+        "shirtNb": "10"
       }
     },
-    "__teamName": "Atletico Tonietto",
     "__collections__": {}
   },
   "trevinicola.22@outlook.it": {
+    "__teamName": "Young Boys",
     "_restDay": "Mercoledì",
     "players": {
-      "H16GZtC-7": {
+      "BJUAgF0-7": {
+        "residence": "Cadoneghe",
+        "name": "Gianluca",
+        "surname": "Lazzaro",
+        "birthYear": "1995",
+        "shirtNb": "10",
+        "id": "BJUAgF0-7",
+        "captain": false,
         "goalkeeper": false,
-        "phoneNb": "",
+        "phoneNb": ""
+      },
+      "H16GZtC-7": {
         "residence": "Cadoneghe",
         "name": "Mattia",
         "surname": "Meneghello",
         "birthYear": "1998",
         "shirtNb": "90",
         "id": "H16GZtC-7",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": ""
       },
       "SkwsgFRZX": {
-        "goalkeeper": false,
-        "phoneNb": "",
         "residence": "Cadoneghe",
         "name": "Andrea",
         "surname": "Lazzaro",
         "birthYear": "1995",
         "shirtNb": "7",
         "id": "SkwsgFRZX",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": ""
       },
       "SJqJWFCWX": {
         "id": "SJqJWFCWX",
@@ -3010,80 +2967,113 @@
         "shirtNb": "21"
       },
       "SJ6PxK0Z7": {
-        "goalkeeper": false,
-        "phoneNb": "3456521942",
         "residence": "Cadoneghe",
         "name": "Nicola",
         "surname": "Trevisan",
         "birthYear": "1996",
         "shirtNb": "4",
         "id": "SJ6PxK0Z7",
-        "captain": true
+        "captain": true,
+        "goalkeeper": false,
+        "phoneNb": "3456521942"
       },
       "ByV4ZFCbQ": {
-        "goalkeeper": false,
-        "phoneNb": "",
         "residence": "Cadoneghe",
         "name": "Nicola",
         "surname": "Giacomini",
         "birthYear": "1997",
         "shirtNb": "6",
         "id": "ByV4ZFCbQ",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": ""
       },
       "H1PZWFRWX": {
+        "goalkeeper": true,
+        "phoneNb": "",
+        "residence": "Cadoneghe",
         "name": "Davide",
         "surname": "Meneghello",
         "birthYear": "1994",
         "shirtNb": "1",
         "id": "H1PZWFRWX",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "",
-        "residence": "Cadoneghe"
-      },
-      "BJUAgF0-7": {
-        "id": "BJUAgF0-7",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "",
-        "residence": "Cadoneghe",
-        "name": "Gianluca",
-        "surname": "Lazzaro",
-        "birthYear": "1995",
-        "shirtNb": "10"
+        "captain": false
       }
     },
-    "__teamName": "Young Boys",
     "__collections__": {}
   },
   "vettoreedoardo@gmail.com": {
     "__teamName": "Olimpia",
     "_restDay": "Martedì ",
     "players": {
-      "rJ8UV1rfm": {
-        "id": "rJ8UV1rfm",
+      "SkvKm1rM7": {
+        "goalkeeper": false,
+        "phoneNb": "3471711398",
+        "residence": "Via Tione 1",
+        "name": "Walid",
+        "surname": "Benagoug",
+        "birthYear": "21101999",
+        "shirtNb": "21",
+        "id": "SkvKm1rM7",
+        "captain": true
+      },
+      "SJ_r7yrGm": {
+        "goalkeeper": true,
+        "phoneNb": "3463689827",
+        "residence": "Via molini 45",
+        "name": "Leonardo ",
+        "surname": "Pranovi",
+        "birthYear": "18022000",
+        "shirtNb": "1",
+        "id": "SJ_r7yrGm",
+        "captain": false
+      },
+      "r1n-NJHGm": {
+        "residence": "Via dall'angolo 11/b",
+        "name": "Gianmario",
+        "surname": "Martinelli",
+        "birthYear": "06022001",
+        "shirtNb": "6",
+        "id": "r1n-NJHGm",
         "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3486527285"
+      },
+      "Syu9EJrGQ": {
+        "goalkeeper": false,
+        "phoneNb": "3463478842",
+        "residence": "Via astio 68",
+        "name": "Massimiliano",
+        "surname": "Moretto",
+        "birthYear": "20051998",
+        "shirtNb": "7",
+        "id": "Syu9EJrGQ",
+        "captain": false
+      },
+      "rJ8UV1rfm": {
         "goalkeeper": false,
         "phoneNb": "3497059896",
         "residence": "Via cignaroli 19/a",
         "name": "Andrea ",
         "surname": "Babetto",
         "birthYear": "12121999",
-        "shirtNb": "4"
+        "shirtNb": "4",
+        "id": "rJ8UV1rfm",
+        "captain": false
       },
       "S1ibX1HGX": {
-        "goalkeeper": false,
-        "phoneNb": "3474827919",
         "residence": "Via ca panosso 33",
         "name": "Leonardo ",
         "surname": "Schievano",
         "birthYear": "10022001",
         "shirtNb": "42",
         "id": "S1ibX1HGX",
-        "captain": false
+        "captain": false,
+        "goalkeeper": false,
+        "phoneNb": "3474827919"
       },
       "H1BZ0RDf7": {
+        "residence": "Via avisio 63 a",
         "name": "Edoardo",
         "surname": "Canton",
         "birthYear": "27122001",
@@ -3091,74 +3081,29 @@
         "id": "H1BZ0RDf7",
         "captain": false,
         "goalkeeper": false,
-        "phoneNb": "3459107283",
-        "residence": "Via avisio 63 a"
+        "phoneNb": "3459107283"
       },
       "BJhCE1SMQ": {
+        "id": "BJhCE1SMQ",
+        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3466048680",
         "residence": "Via natisone 50/c",
         "name": "Edoardo",
         "surname": "Vettore",
         "birthYear": "08122000",
-        "shirtNb": "17",
-        "id": "BJhCE1SMQ",
-        "captain": false
+        "shirtNb": "17"
       },
       "rysTX1rG7": {
-        "id": "rysTX1rG7",
-        "captain": false,
         "goalkeeper": false,
         "phoneNb": "3924723595",
         "residence": "Via strazzacappa 3",
         "name": "Tommaso",
         "surname": "Gasparotti",
         "birthYear": "12011999",
-        "shirtNb": "11"
-      },
-      "SkvKm1rM7": {
-        "name": "Walid",
-        "surname": "Benagoug",
-        "birthYear": "21101999",
-        "shirtNb": "21",
-        "id": "SkvKm1rM7",
-        "captain": true,
-        "goalkeeper": false,
-        "phoneNb": "3471711398",
-        "residence": "Via Tione 1"
-      },
-      "SJ_r7yrGm": {
-        "id": "SJ_r7yrGm",
-        "captain": false,
-        "goalkeeper": true,
-        "phoneNb": "3463689827",
-        "residence": "Via molini 45",
-        "name": "Leonardo ",
-        "surname": "Pranovi",
-        "birthYear": "18022000",
-        "shirtNb": "1"
-      },
-      "r1n-NJHGm": {
-        "goalkeeper": false,
-        "phoneNb": "3486527285",
-        "residence": "Via dall'angolo 11/b",
-        "name": "Gianmario",
-        "surname": "Martinelli",
-        "birthYear": "06022001",
-        "shirtNb": "6",
-        "id": "r1n-NJHGm",
+        "shirtNb": "11",
+        "id": "rysTX1rG7",
         "captain": false
-      },
-      "Syu9EJrGQ": {
-        "id": "Syu9EJrGQ",
-        "captain": false,
-        "goalkeeper": false,
-        "phoneNb": "3463478842",
-        "residence": "Via astio 68",
-        "name": "Massimiliano",
-        "surname": "Moretto",
-        "birthYear": "20051998",
-        "shirtNb": "7"
       }
     },
     "__collections__": {}

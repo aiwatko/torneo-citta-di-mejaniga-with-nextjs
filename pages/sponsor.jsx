@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import styled from 'styled-components';
 
 import Layout from '../components/Layout'
-import getContent from '../api/content/sponsors'
-
 
 const Container = styled.div`
     max-width: 1024px; 
@@ -19,28 +17,14 @@ const Image = styled.img`
     width: 100%;
 `;
 
-class Sponsors extends Component {
-    constructor() {
-        super();
-        this.state = { 
-            sponsorsContent: null 
-        }
-
-        getContent.then(data => {
-            this.setState({
-                sponsorsContent: data           
-            });
-        }, console.error);
-    }
-
+class Sponsor extends Component {
     render() {
         return (
             <Layout>
                 {
-                    this.state.sponsorsContent &&
                     <Container>
-                        <Title>{this.state.sponsorsContent.title}</Title>    
-                        <Image src='/static/sponsors/sponsors.jpg' alt="Sponsors"/>                    
+                        <Title>Sponsor</Title>    
+                        <Image src='/static/aggiornamenti/sponsors.jpg' alt="Sponsors"/>                    
                     </Container>
                 }
             </Layout>    
@@ -48,4 +32,4 @@ class Sponsors extends Component {
     }
   }
   
-export default Sponsors;
+export default Sponsor;

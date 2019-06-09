@@ -144,7 +144,7 @@ class Enrollment extends Component {
             });
         }, console.error);
 
-        this.playersCollection = db.collection('teams');
+        this.playersCollection = db.collection('teams2019');
     }
 
     onFieldChange = e => {

@@ -10,7 +10,6 @@ const HeaderSC = styled.header`
 
 const Container = styled.div`
   z-index: 2;
-  position: relative;
   display: flex;
   justify-content: space-between;
   height: 100%;
@@ -26,9 +25,8 @@ const PrimaryNav = styled.nav`
   width: 100%;
 `;
 
-const NavToggleLabel = styled.label`
+const HamburgerIcon = styled.button`
   position: absolute;
-  top: 0;
   right: 0;
   z-index: 5;
 
@@ -37,7 +35,7 @@ const NavToggleLabel = styled.label`
   }
 `;
 
-const HamburgerBar = css`
+const HamburgerBarStyle = css`
   display: block;
   position: relative;
   width: 35px;
@@ -48,61 +46,56 @@ const HamburgerBar = css`
   transition: all 0.3s ease-in-out;
 `;
 const HamburgerTop = styled.span`
-  ${HamburgerBar}
+  ${HamburgerBarStyle};
+
+  ${({ isNavOpen }) =>
+    isNavOpen
+      ? `transform: rotate(-45deg);
+    margin-top: 25px;`
+      : ''}
 `;
+
 const HamburgerMiddle = styled.span`
-  ${HamburgerBar}
+  ${HamburgerBarStyle};
+
+  ${({ isNavOpen }) =>
+    isNavOpen
+      ? `transform: rotate(45deg);
+    margin-top: -3px;`
+      : ''}
 `;
+
 const HamburgerBottom = styled.span`
-  ${HamburgerBar}
+  ${HamburgerBarStyle};
+
+  ${({ isNavOpen }) =>
+    isNavOpen
+      ? `opacity: 0;
+    transform: rotate(45deg);`
+      : ''}
 `;
 
 const NavHeaderContainer = styled.div`
-  position: fixed;
   width: 100%;
   height: 100%;
   background-color: #376513;
   top: 0;
-  right: -100%;
+  right: ${({ isNavOpen }) => (isNavOpen ? '0' : '-100%')};
   bottom: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  display: ${({ isNavOpen }) => (isNavOpen ? 'block' : 'none')};
+  position: ${({ isNavOpen }) => (isNavOpen ? 'fixed' : '')};
 
   @media (min-width: 768px) {
-    position: relative;
+    display: block;
     height: auto;
     right: 0;
     background: transparent;
   }
 `;
 
-const NavToggle = styled.input`
-  display: none;
-
-  &:checked + ${NavToggleLabel} {
-    ${HamburgerTop} {
-      transform: rotate(-45deg);
-      margin-top: 25px;
-    }
-
-    ${HamburgerMiddle} {
-      transform: rotate(45deg);
-      margin-top: -3px;
-    }
-
-    ${HamburgerBottom} {
-      opacity: 0;
-      transform: rotate(45deg);
-    }
-  }
-
-  &:checked + ${NavToggleLabel} + ${NavHeaderContainer} {
-    right: 0;
-  }
-`;
-
 const NavInner = styled.div`
-  position: relative;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -126,7 +119,7 @@ const NavList = styled.ul`
 
 const NavListItem = styled.li``;
 
-const NavLink = styled.a`
+const NavLinkStyle = css`
   position: relative;
   text-decoration: none;
   color: white;
@@ -135,6 +128,9 @@ const NavLink = styled.a`
   margin-top: 36px;
   transition: color 0.2s ease-in-out;
   letter-spacing: 1px;
+  font-family: inherit;
+  border: none;
+  background: transparent;
 
   @media (min-width: 768px) {
     margin: 12px 4px;
@@ -166,11 +162,23 @@ const NavLink = styled.a`
   }
 `;
 
+const NavLink = styled.a`
+  ${NavLinkStyle}
+`;
+const NavLinkButton = styled.button`
+  ${NavLinkStyle}
+`;
+
 const NavSublist = styled.ul`
   background-color: #376513;
   list-style: none;
   padding: 0;
+  margin-bottom: 30px;
   display: none;
+
+  @media (min-width: 768px) {
+    position: absolute;
+  }
 
   &.active {
     display: block;
@@ -183,7 +191,8 @@ class Header extends Component {
   constructor() {
     super();
     this.state = {
-      navItems: null
+      navItems: null,
+      isNavOpen: false
     };
 
     getNavItems.then(data => {
@@ -193,14 +202,10 @@ class Header extends Component {
     }, console.error);
   }
 
-  openNav = () => {
-    const nav = document.getElementsByClassName('header__nav-container')[0];
-    nav.style.display = 'block';
-  };
-
-  closeNav = () => {
-    const nav = document.getElementsByClassName('header__nav-container')[0];
-    nav.style.display = 'none';
+  toggleMainNav = () => {
+    this.setState(prevState => ({
+      isNavOpen: !prevState.isNavOpen
+    }));
   };
 
   showSubnNav = e => {
@@ -213,15 +218,13 @@ class Header extends Component {
       <HeaderSC>
         <Container>
           <PrimaryNav>
-            <NavToggle type="checkbox" id="header__nav-toggle" />
+            <HamburgerIcon onClick={this.toggleMainNav}>
+              <HamburgerTop isNavOpen={this.state.isNavOpen} />
+              <HamburgerMiddle isNavOpen={this.state.isNavOpen} />
+              <HamburgerBottom isNavOpen={this.state.isNavOpen} />
+            </HamburgerIcon>
 
-            <NavToggleLabel htmlFor="header__nav-toggle">
-              <HamburgerTop />
-              <HamburgerMiddle />
-              <HamburgerBottom />
-            </NavToggleLabel>
-
-            <NavHeaderContainer className="header__nav-container">
+            <NavHeaderContainer isNavOpen={this.state.isNavOpen}>
               <NavInner>
                 <NavList>
                   {this.state.navItems &&
@@ -230,14 +233,16 @@ class Header extends Component {
                         <NavListItem key={item.label}>
                           {item.subitems ? (
                             <div>
-                              <NavLink onClick={this.showSubnNav}>
+                              <NavLinkButton onClick={this.showSubnNav}>
                                 {item.label}
-                              </NavLink>
+                              </NavLinkButton>
                               <NavSublist>
-                                {item.subitems.map(subitem => {
+                                {item.subitems.map((subitem, i) => {
                                   if (subitem.active) {
                                     return (
-                                      <NavSublistItem key={item.label}>
+                                      <NavSublistItem
+                                        key={`${i}-${subitem.link}`}
+                                      >
                                         <Link href={`/${subitem.link}`}>
                                           <NavLink>{subitem.nav_label}</NavLink>
                                         </Link>

@@ -175,6 +175,8 @@ const NavSublist = styled.ul`
   padding: 0;
   margin-bottom: 30px;
   display: none;
+  z-index: 5;
+  min-width: 195px;
 
   @media (min-width: 768px) {
     position: absolute;
@@ -232,7 +234,7 @@ class Header extends Component {
                       return (
                         <NavListItem key={item.label}>
                           {item.subitems ? (
-                            <div>
+                            <>
                               <NavLinkButton onClick={this.showSubnNav}>
                                 {item.label}
                               </NavLinkButton>
@@ -243,15 +245,35 @@ class Header extends Component {
                                       <NavSublistItem
                                         key={`${i}-${subitem.link}`}
                                       >
-                                        <Link href={`/${subitem.link}`}>
-                                          <NavLink>{subitem.nav_label}</NavLink>
-                                        </Link>
+                                        {item.label === 'Edizioni passate' ? (
+                                          <Link
+                                            href={{
+                                              pathname: 'edizione-passata',
+                                              query: {
+                                                number: subitem.number,
+                                                title: subitem.nav_label
+                                              }
+                                            }}
+                                            as={`/${item.link}/${subitem.link}`}
+                                            passHref
+                                          >
+                                            <NavLink>
+                                              {subitem.nav_label}
+                                            </NavLink>
+                                          </Link>
+                                        ) : (
+                                          <Link href={`/${subitem.link}`}>
+                                            <NavLink>
+                                              {subitem.nav_label}
+                                            </NavLink>
+                                          </Link>
+                                        )}
                                       </NavSublistItem>
                                     );
                                   }
                                 })}
                               </NavSublist>
-                            </div>
+                            </>
                           ) : (
                             <Link href={`/${item.link}`}>
                               <NavLink>{item.label}</NavLink>

@@ -9,6 +9,7 @@ const FooterSC = styled.footer`
 const Container = styled.div`
   position: relative;
   max-width: 1024px;
+  margin: 0 auto;
 `;
 
 const Text = styled.p`

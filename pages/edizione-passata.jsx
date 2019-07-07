@@ -17,7 +17,6 @@ const Subtitle = styled.h2`
 `;
 
 const Image = styled.img`
-  position: relative;
   width: 100%;
 `;
 
@@ -28,31 +27,48 @@ class EdizionePassata extends Component {
   }
 
   render() {
+    const { number, title } = this.props;
     return (
       <Layout>
         {
           <Container>
-            <Title>{this.props.title}</Title>
-            <Subtitle>Calendario</Subtitle>
-            <Image
-              src={`static/edizioni-passate/gironi_${this.props.number}.jpg`}
-              alt={`Caldenario ${this.props.title}`}
-            />
-            <Subtitle>Fasi finali</Subtitle>
-            <Image
-              src={`static/edizioni-passate/ff_${this.props.number}.jpg`}
-              alt={`Fasi finali ${this.props.title}`}
-            />
-            <Subtitle>Gironi</Subtitle>
-            <Image
-              src={`static/edizioni-passate/gironi_${this.props.number}.jpg`}
-              alt={`Gironi ${this.props.title}`}
-            />
-            <Subtitle>Rose</Subtitle>
-            <Image
-              src={`static/edizioni-passate/rose_${this.props.number}.jpg`}
-              alt={`Rose ${this.props.title}`}
-            />
+            <Title>{title}</Title>
+            {[4, 5, 6, 7].includes(Number(number)) && (
+              <>
+                <Subtitle>Calendario</Subtitle>
+                <Image
+                  src={`../static/edizioni-passate/calendario_${number}.jpg`}
+                  alt={`Caldenario ${title}`}
+                />
+              </>
+            )}
+            {[3, 4, 5, 7].includes(Number(number)) && (
+              <>
+                <Subtitle>Fasi finali</Subtitle>
+                <Image
+                  src={`../static/edizioni-passate/ff_${number}.jpg`}
+                  alt={`Fasi finali ${title}`}
+                />
+              </>
+            )}
+            {[3, 4, 5, 6, 7].includes(Number(number)) && (
+              <>
+                <Subtitle>Gironi</Subtitle>
+                <Image
+                  src={`../static/edizioni-passate/gironi_${number}.jpg`}
+                  alt={`Gironi ${title}`}
+                />
+              </>
+            )}
+            {[4, 5, 6].includes(Number(number)) && (
+              <>
+                <Subtitle>Rose</Subtitle>
+                <Image
+                  src={`../static/edizioni-passate/rose_${number}.jpg`}
+                  alt={`Rose ${title}`}
+                />
+              </>
+            )}
           </Container>
         }
       </Layout>

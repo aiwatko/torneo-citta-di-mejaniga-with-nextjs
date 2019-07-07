@@ -19,28 +19,41 @@ export default db
     });
 
     // Dirty dirty hack, this should be in the db where all the rest of content is :/
-    const pastEditions = [
-      'Prima',
-      'Seconda',
-      'Terza',
-      'Quarta',
-      'Quinta',
-      'Sesta',
-      'Settima',
-      'Ottava',
-      'Nona',
-      'Decima'
-    ].map((edition, i) => ({
-      active: true,
-      nav_label: `${edition} edizione`,
-      link: `${edition.toLocaleLowerCase()}-edizione`,
-      number: i + 1
-    }));
-
     navItems.push({
       label: 'Edizioni passate',
       link: 'edizioni-passate',
-      subitems: pastEditions
+      subitems: [
+        {
+          active: true,
+          nav_label: 'Terza edizione',
+          link: 'terza-edizione',
+          number: 3
+        },
+        {
+          active: true,
+          nav_label: 'Quarta edizione',
+          link: 'quarta-edizione',
+          number: 4
+        },
+        {
+          active: true,
+          nav_label: 'Quinta edizione',
+          link: 'quint-edizione',
+          number: 5
+        },
+        {
+          active: true,
+          nav_label: 'Sesta edizione',
+          link: 'sesta-edizione',
+          number: 6
+        },
+        {
+          active: true,
+          nav_label: 'Settima edizione',
+          link: 'settima-edizione',
+          number: 7
+        }
+      ]
     });
 
     return navItems;

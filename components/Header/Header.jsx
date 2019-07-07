@@ -247,13 +247,7 @@ class Header extends Component {
                                       >
                                         {item.label === 'Edizioni passate' ? (
                                           <Link
-                                            href={{
-                                              pathname: 'edizione-passata',
-                                              query: {
-                                                number: subitem.number,
-                                                title: subitem.nav_label
-                                              }
-                                            }}
+                                            href={`/${item.link}/${subitem.link}`}
                                             as={`/${item.link}/${subitem.link}`}
                                             passHref
                                           >
@@ -262,7 +256,7 @@ class Header extends Component {
                                             </NavLink>
                                           </Link>
                                         ) : (
-                                          <Link href={`/${subitem.link}`}>
+                                          <Link href={`/${subitem.link}`} passHref>
                                             <NavLink>
                                               {subitem.nav_label}
                                             </NavLink>

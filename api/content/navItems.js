@@ -38,7 +38,7 @@ export default db
         {
           active: true,
           nav_label: 'Quinta edizione',
-          link: 'quint-edizione',
+          link: 'quinta-edizione',
           number: 5
         },
         {

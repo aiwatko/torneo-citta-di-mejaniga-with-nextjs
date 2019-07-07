@@ -31,7 +31,7 @@ const PastEdition = props => {
             <>
               <Subtitle>Calendario</Subtitle>
               <Image
-                src={`../static/edizioni-passate/calendario_${number}.jpg`}
+                src={`/static/edizioni-passate/calendario_${number}.jpg`}
                 alt={`Caldenario ${title}`}
               />
             </>
@@ -40,7 +40,7 @@ const PastEdition = props => {
             <>
               <Subtitle>Fasi finali</Subtitle>
               <Image
-                src={`../static/edizioni-passate/ff_${number}.jpg`}
+                src={`/static/edizioni-passate/ff_${number}.jpg`}
                 alt={`Fasi finali ${title}`}
               />
             </>
@@ -49,7 +49,7 @@ const PastEdition = props => {
             <>
               <Subtitle>Gironi</Subtitle>
               <Image
-                src={`../static/edizioni-passate/gironi_${number}.jpg`}
+                src={`/static/edizioni-passate/gironi_${number}.jpg`}
                 alt={`Gironi ${title}`}
               />
             </>
@@ -58,7 +58,7 @@ const PastEdition = props => {
             <>
               <Subtitle>Rose</Subtitle>
               <Image
-                src={`../static/edizioni-passate/rose_${number}.jpg`}
+                src={`/static/edizioni-passate/rose_${number}.jpg`}
                 alt={`Rose ${title}`}
               />
             </>

@@ -24,7 +24,7 @@ class FasiFinali extends Component {
                 {
                     <Container>
                         <Title>Fasi Finali</Title>    
-                        <Image src='/static/aggiornamenti/fasi-finali.png' alt="Fasi finali"/>                    
+                        <Image src='/static/aggiornamenti/fasi-finali.jpg' alt="Fasi finali"/>                    
                     </Container>
                 }
             </Layout>    

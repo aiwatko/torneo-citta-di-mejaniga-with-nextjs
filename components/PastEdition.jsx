@@ -27,7 +27,7 @@ const PastEdition = props => {
       {
         <Container>
           <Title>{title}</Title>
-          {[4, 5, 6, 7].includes(Number(number)) && (
+          {[2, 4, 5, 6, 7, 8, 9, 10].includes(Number(number)) && (
             <>
               <Subtitle>Calendario</Subtitle>
               <Image
@@ -36,7 +36,7 @@ const PastEdition = props => {
               />
             </>
           )}
-          {[3, 4, 5, 7].includes(Number(number)) && (
+          {[3, 4, 5, 7, 8, 9, 10].includes(Number(number)) && (
             <>
               <Subtitle>Fasi finali</Subtitle>
               <Image
@@ -45,7 +45,7 @@ const PastEdition = props => {
               />
             </>
           )}
-          {[3, 4, 5, 6, 7].includes(Number(number)) && (
+          {[2, 3, 4, 5, 6, 7, 8, 9, 10].includes(Number(number)) && (
             <>
               <Subtitle>Gironi</Subtitle>
               <Image
@@ -54,7 +54,7 @@ const PastEdition = props => {
               />
             </>
           )}
-          {[4, 5, 6].includes(Number(number)) && (
+          {[2, 4, 5, 6, 8, 9, 10].includes(Number(number)) && (
             <>
               <Subtitle>Rose</Subtitle>
               <Image

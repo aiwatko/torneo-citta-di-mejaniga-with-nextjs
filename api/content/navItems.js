@@ -25,6 +25,12 @@ export default db
       subitems: [
         {
           active: true,
+          nav_label: 'Seconda edizione',
+          link: 'seconda-edizione',
+          number: 2
+        },
+        {
+          active: true,
           nav_label: 'Terza edizione',
           link: 'terza-edizione',
           number: 3
@@ -52,6 +58,24 @@ export default db
           nav_label: 'Settima edizione',
           link: 'settima-edizione',
           number: 7
+        },
+        {
+          active: true,
+          nav_label: 'Ottava edizione',
+          link: 'ottava-edizione',
+          number: 8
+        },
+        {
+          active: true,
+          nav_label: 'Nona edizione',
+          link: 'nona-edizione',
+          number: 9
+        },
+        {
+          active: true,
+          nav_label: 'Decima edizione',
+          link: 'decima-edizione',
+          number: 10
         }
       ]
     });

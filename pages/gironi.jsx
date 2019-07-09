@@ -24,7 +24,7 @@ class Gironi extends Component {
                 {
                     <Container>
                         <Title>Gironi</Title>    
-                        <Image src='/static/aggiornamenti/gironi.png' alt="Gironi"/>                    
+                        <Image src='/static/aggiornamenti/gironi.jpg' alt="Gironi"/>                    
                     </Container>
                 }
             </Layout>    

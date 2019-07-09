@@ -29,6 +29,8 @@ const HamburgerIcon = styled.button`
   position: absolute;
   right: 0;
   z-index: 5;
+  background: transparent;
+  border: none;
 
   @media (min-width: 768px) {
     display: none;
@@ -247,7 +249,9 @@ class Header extends Component {
                                       >
                                         {item.label === 'Edizioni passate' ? (
                                           <Link
-                                            href={`/${item.link}/${subitem.link}`}
+                                            href={`/${item.link}/${
+                                              subitem.link
+                                            }`}
                                             as={`/${item.link}/${subitem.link}`}
                                             passHref
                                           >
@@ -256,7 +260,10 @@ class Header extends Component {
                                             </NavLink>
                                           </Link>
                                         ) : (
-                                          <Link href={`/${subitem.link}`} passHref>
+                                          <Link
+                                            href={`/${subitem.link}`}
+                                            passHref
+                                          >
                                             <NavLink>
                                               {subitem.nav_label}
                                             </NavLink>

@@ -132,7 +132,6 @@ class Enrollment extends Component {
             enrollmentMsg: null,
             currentUser: null,
             teamName: '',
-            restDay: '',
             players: null,
             captain: false,
             goalkeeper: false
@@ -209,7 +208,6 @@ class Enrollment extends Component {
     onSaveTeamData = () => {
         this.playersCollection.doc(this.state.currentUser).set({
             __teamName: this.state.teamName,
-            _restDay: this.state.restDay,
         }, { merge: true })
     }
 
@@ -242,7 +240,7 @@ class Enrollment extends Component {
     }
 
     validateData =  () => {
-        if(this.state.teamName && this.state.restDay) {
+        if(this.state.teamName) {
             this.onSaveTeamData();
 
             if(this.state.players && Object.keys(this.state.players).length > 6) {
@@ -257,7 +255,7 @@ class Enrollment extends Component {
             }
         } else {
             this.setState({
-                enrollmentMsg: 'Inserisci il nome della squadra e la preferenza giorno di riposo!'
+                enrollmentMsg: 'Inserisci il nome della squadra!'
             })
         }
     }
@@ -301,7 +299,6 @@ class Enrollment extends Component {
             .then(data => {
                 this.setState({
                     teamName: data.__teamName,
-                    restDay: data._restDay,
                 })
                 this.hidePlayerInput()
             })
@@ -329,7 +326,6 @@ class Enrollment extends Component {
     }
 
     render() {
-        const restDay = this.state.restDay
         const teamName = this.state.teamName
         const players = this.state.players
         const enrollmentMsg = this.state.enrollmentMsg
@@ -351,14 +347,6 @@ class Enrollment extends Component {
                                     type={content.enrollment.team.team_name.type} 
                                     key={content.enrollment.team.team_name.order}
                                     value={teamName} 
-                                />
-                                <InputFieldWithLabel 
-                                    onChange={this.onFieldChange} 
-                                    text={content.enrollment.team.rest_day.label} 
-                                    dataID={content.enrollment.team.rest_day.id} 
-                                    type={content.enrollment.team.rest_day.type} 
-                                    key={content.enrollment.team.rest_day.order}
-                                    value={restDay} 
                                 />
                         </InnerContainer>
                         <Subtitle>{content.enrollment.sub_title}</Subtitle>

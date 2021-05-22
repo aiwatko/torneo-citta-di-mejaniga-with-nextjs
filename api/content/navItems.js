@@ -76,6 +76,12 @@ export default db
           nav_label: 'Decima edizione',
           link: 'decima-edizione',
           number: 10
+        },
+        {
+          active: true,
+          nav_label: 'Undicesima edizione',
+          link: 'undicesima-edizione',
+          number: 11
         }
       ]
     });

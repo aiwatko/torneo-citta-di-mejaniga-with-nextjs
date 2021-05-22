@@ -15,7 +15,7 @@
   "dependencies": {
     "firebase": "^5.0.4",
     "next": "^6.0.3",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "shortid": "^2.2.8",
